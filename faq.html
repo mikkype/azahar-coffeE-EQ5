@@ -30,6 +30,7 @@
                     <a href="aboutUs.html">ABOUT US</a>
                     <img src="fotofigma/globos-de-texto.png" alt="">
                     <a href="faq.html">FAQ</a>
+                    <a href="inicio.html"><img src="fotofigma/casa.png" alt=""></a>
                 </nav>
                 <div class="rectangulo"></div>
             </div>
@@ -63,7 +64,22 @@
         eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, egestas id,
         iaculis at, velit. Pellentesque id libero.
     </p>
-    <div class="separador"></div>
+    <form action="#" target="" method="get" name="formDatosPersonales">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+    
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+    
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email" required />
+    
+        <label for="mensaje">Dejanos un comentario</label>
+        <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+        
+        <input type="submit" name="enviar" value="enviar datos"/>
+    </form>
 
     <!-- FOOTER -->
 
