@@ -13,26 +13,38 @@
     <!-- HEADER -->
 
     <header>
-        <div class="titulo">
-            <img src="fotofigma/ubicacion.png" alt="">
-            <h1>AZAHAR COFFEE </h1>
-        </div>
         <!-- CONTENEDOR CABECERA -->
 
-        <!-- NAVEGADOR -->
+        <div class="contenedor-cabecera">
+            <!-- CONTENEDOR TITULO Y NAV-->
 
-        <div class="contenedor-nav-logo">
-            <div class="cabecera">
+            <div class="contenedor-titulo-nav">
+                <!-- CONTENEDOR TITULO (imagen y texto)-->
+
+                <div class="titulo-grid">
+                    <div class="titulo-flex">
+                        <img src="fotofigma/ubicacion.png" alt="" width="">
+                        <h1>AZAHAR COFFEE </h1>
+                    </div>
+
+                </div>
+
                 <div class="rectangulo"></div>
-                <nav class="navbar">
-                    <img src="fotofigma/carta-de-vinos.png" alt="">
-                    <a href="Carta.html">CARTA </a>
-                    <img src="fotofigma/comunidad.png" alt="">
-                    <a href="aboutUs.html">ABOUT US</a>
-                    <img src="fotofigma/globos-de-texto.png" alt="">
-                    <a href="faq.html">FAQ</a>
-                    <a href="inicio.html"><img src="fotofigma/casa.png" alt=""></a>
-                </nav>
+                <!-- NAVEGADOR -->
+                <div class="cabecera">
+                    <nav class="navbar">
+                        <img src="fotofigma/carta-de-vinos.png" alt="">
+                        <a href="Carta.html">CARTA </a>
+                        <img src="fotofigma/comunidad.png" alt="">
+                        <a href="aboutUs.html">ABOUT US</a>
+                        <img src="fotofigma/globos-de-texto.png" alt="">
+                        <a href="faq.html">FAQ</a>
+
+                    </nav>
+                    <nav class="casa">
+                        <a href="inicio.html"><img src="fotofigma/casa.png" alt=""></a>
+                    </nav>
+                </div>
                 <div class="rectangulo"></div>
             </div>
             <!-- LOGOTIPO -->
@@ -45,50 +57,61 @@
     </header>
 
     <!-- CUERPO -->
+    <main class="cuerpo">
 
-    <!-- CARRUSEL O SLIDER -->
-    <div>
-        <h1>F A Q </h1>
-        <h2>FREQUENTLY
-            ASKED QUESTIONS</h2>
-    </div>
-    <h2>¿Ofrecéis alternativas para vegetarianos o veganos?    </h2>
-    <p> ¡Sí! Ofrecemos alternativas para todo tipo de dietas, 
-        intolerancias y alergias. ¡Pregúntanos sin compromiso!
+        <!-- CARRUSEL O SLIDER -->
+        <div>
+            <h1>F A Q </h1>
+            <h2>FREQUENTLY
+                ASKED QUESTIONS</h2>
+        </div>
+        <h2>¿Ofrecéis alternativas para vegetarianos o veganos? </h2>
+        <p> ¡Sí! Ofrecemos alternativas para todo tipo de dietas,
+            intolerancias y alergias. ¡Pregúntanos sin compromiso!
 
-    <H2>No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?    </H2>
-    <p> ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen 
-        disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta 
-        página y localízanos! 
-    </p>
+        <H2>No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local? </H2>
+        <p> ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
+            disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
+            página y localízanos!
+        </p>
 
+<<<<<<< HEAD
     <h2> ¿Cuál es vuestro horario?    </h2>
     <p>Abrimos de 5a.m a 2p.m ininterrumpidamente. ¡Luego puedes hacer tu pedido escoger tu hora de recogida! 
     </p>
+=======
+        <h2> ¿Cuál es vuestro horario? </h2>
+        <p>
+            Abrimos de 5a.m a 2p.m ininterrumpidamente.
+            ¡Luego puedes hacer tu pedido escoger tu hora de recogida!
+        </p>
+>>>>>>> 6a50ad238ab66a2ff2edf60763000380bb65250f
 
-    <!--formulario a llenar-->
+        <!--formulario a llenar-->
 
-    <form action="#" method="post">
+        <form action="#" method="post">
 
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
 
-        <label for="mensaje">Dejanos un comentario</label>
-        <textarea name="comentario" id="comentario" cols="60"></textarea>
-        
-        <button onclick="comentario()">Enviar</button>
-        <input type="reset"  value="Limpiar">
-    </form>
+            <label for="mensaje">Dejanos un comentario</label>
+            <textarea name="comentario" id="comentario" cols="60"></textarea>
+
+            <button onclick="comentario()">Enviar</button>
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
 
     <!-- FOOTER -->
 
     <footer>
+        <div class="separador"></div>
 
-        <div>
-            <img src="fotofigma/ubicacion.png" alt="">
-            <p>¡LOCALÍZANOS!</p>
-        </div>
-        <div>
+        <div class="map-compra">
+            <div class="map">
+                <a href="mapa.html"><img src="fotofigma/ubicacion.png" alt=""></a>
+                <p>¡LOCALÍZANOS!</p>
+            </div>
             <img src="fotofigma/bolsa-de-la-compra.png" alt="">
         </div>
     </footer>
