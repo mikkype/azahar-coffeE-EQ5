@@ -1,0 +1,22 @@
+.mapa{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.frame{
+    grid-column: 2;
+    
+}
+.lista{
+    grid-column: 1;
+    background-color: beige;
+    margin-right: 2rem;
+}
+.lista h2{
+    text-align: center;
+}
+h1{
+
+    text-align: center;
+}

@@ -1,10 +1,15 @@
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 20rem;
+    margin: 2rem 2rem 2rem 2rem;
 }
 footer img{
     width: 5rem;
     height: 5rem;
+}
+.map-compra{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.map{
+    display: flex;
 }
