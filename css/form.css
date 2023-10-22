@@ -1,42 +1,39 @@
 /* Formulario */
 form{
-	width:300px;
-	padding:16px;
+	width:600px;
+	padding:10px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#ccc;
+	background-color:#8b523a;
 }
 
 form label{
-	width:72px;
+	width:100%;
 	font-weight:bold;
-	display:inline-block;
+	display: inline-block;
+	color: #ffffff;
+
 }
 
-form input[type="text"],
-form input[type="email"]{
-	width:180px;
-	padding:3px 10px;
+form input[type="text"]{
+	width:100%;
+	padding:5px 10px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
-	background-color:#f6f6f6;
+	
 	margin:8px 0;
 	display:inline-block;
 }
-form input[type="submit"]{
+form button[type="button"]{
 	width:100%;
 	padding:8px 16px;
 	margin-top:32px;
-	border:1px solid #000;
+	border:1px solid #070707;
 	border-radius:5px;
 	display:block;
 	color:#fff;
-	background-color:#000;
+	background-color:#c47474;
 } 
-form input[type="submit"]:hover{
-	cursor:pointer;
-}
-
 textarea{
 	width:100%;
 	height:100px;
