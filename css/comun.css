@@ -38,8 +38,9 @@ header{
         display: flex;
         justify-content: space-around;
         height: 15rem;
-    
+        margin: 2rem 2rem 2rem 2rem;
     }
+
     footer img{
         width: 5rem;
         height: 5rem;
@@ -48,9 +49,21 @@ header{
     footer hr{
         width:max-content;
         height: 1px;
+        margin: 0px;
         color: #D2B6B3;
         opacity: 0.5;
     }
+
+   
+    .map-compra{
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem;
+    }
+    .map{
+        display: flex;
+    }
+    
         
 
 /*NAV STYLE*/
