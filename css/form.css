@@ -3,8 +3,8 @@ form{
 	width:600px;
 	padding:10px;
 	border-radius:10px;
-	margin:auto;
 	background-color:#8b523a;
+	left: 0;
 }
 
 form label{
