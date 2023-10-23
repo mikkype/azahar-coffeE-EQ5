@@ -28,7 +28,7 @@ function mostrarComentario() {
 
     if (elemento && comentario) {
         var comentarioMostrado = document.getElementById('comentarioMostrado');
-        comentarioMostrado.innerHTML = '<p><b>' + elemento + '</b> dejo su comentario :</p> ' + comentario;
+        comentarioMostrado.innerHTML = '<p><b>' + elemento + '</b> dejó su comentario :</p> ' + comentario;
     }else {
         alert("Por favor, complete tanto el campo de nombre como el campo de comentario.");
     }
