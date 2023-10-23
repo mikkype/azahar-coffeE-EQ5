@@ -91,6 +91,7 @@ header{
         padding: 1.4rem 2rem;
         text-decoration: none;
         font-size: 1.5rem;
+        color: black;
     }
     
     .navbar a:hover {
@@ -105,7 +106,6 @@ header{
     }
     
     .rectangulo {
-        width: 120rem;
         height: 1rem;
         background: #D2B6B3;
     }
@@ -127,7 +127,7 @@ header{
     .globos {
         background-color: rgb(255, 230, 232);
         border-radius: 80%;
-        width: 8rem;
+        width: 60rem;
     }
     
     .contenedor-secciones .globos a {
