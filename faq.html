@@ -62,47 +62,51 @@
     <main class="cuerpo">
 
         <!-- CARRUSEL O SLIDER -->
-        <div>
-            <h1>F A Q </h1>
-            <h2>FREQUENTLY
-                ASKED QUESTIONS</h2>
+        
+        <!--PREGUNSTAS Y RESPUESTAS-->
+        <div class="faq">
+            <div class="question">
+                <h2>¿Ofrecéis alternativas para vegetarianos o veganos?</h2>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer">
+                <h4>¡Sí! Ofrecemos alternativas para todo tipo de dietas,
+                intolerancias y alergias. ¡Pregúntanos sin compromiso!</h4>
+            </div>
+            <div class="question">
+                <h2>No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?</h2>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer">
+                <h4>¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
+                    disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
+                    página y localízanos!</h4>
+            </div>
+            <div class="question">
+                <h2>¿Cuál es vuestro horario? </h2>
+                <span class="icon">+</span>
+            </div>
+            <div class="answer">
+                <h4>Abrimos de 5a.m a 2p.m ininterrumpidamente.
+                    ¡Luego puedes hacer tu pedido escoger tu hora de recogida!</h4>
+            </div>
         </div>
-        <h2>¿Ofrecéis alternativas para vegetarianos o veganos? </h2>
-        <p> ¡Sí! Ofrecemos alternativas para todo tipo de dietas,
-            intolerancias y alergias. ¡Pregúntanos sin compromiso!
-
-        <H2>No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local? </H2>
-        <p> ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
-            disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
-            página y localízanos!
-        </p>
-
-
-    <h2> ¿Cuál es vuestro horario?    </h2>
-    <p>Abrimos de 5a.m a 2p.m ininterrumpidamente. ¡Luego puedes hacer tu pedido escoger tu hora de recogida! 
-    </p>
-=======
-        <h2> ¿Cuál es vuestro horario? </h2>
-        <p>
-            Abrimos de 5a.m a 2p.m ininterrumpidamente.
-            ¡Luego puedes hacer tu pedido escoger tu hora de recogida!
-        </p>
-        <h2>Opina</h2>
-        <p>En Azahar Coffee sabemos escucharte por eso te invitamos a dejarnos un comentario sobre la calidad de nuestro servicio</p>
-
 
         <!--formulario a llenar JS-->
-
-       
-        <form action="" id="formulario" >
-
+        <h3>En Azahar Coffee valoramos tu opinion ,por eso te invitamos a dejarnos tu comentario acerca de nuestros servicio o producto.</h3>
+       <form action="" id="formulario1">
             <label for="Nombre">Nombre</label>
-            <input type="text" name="elemento" id="elemento" />
+            <input type="text" name="elemento1" id="elemento1" />
             <label for="mensaje">Comentario</label>
-            <textarea id="come" name="come" rows="4" cols="50"></textarea>
-            <button type="button" onclick="comentario()">Enviar</button>
-    
+            <textarea id="mostrar" name="mostrar" rows="6" cols="60"></textarea>
+            <button type="button" onclick="mostrarComentario()">Enviar</button>
+            <button type="reset" >Limpiar</button>
+            
         </form>
+
+
+        <div id="comentarioMostrado"></div> 
+
     </main>
 
     <!-- FOOTER -->
