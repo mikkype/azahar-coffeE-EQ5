@@ -67,10 +67,13 @@
             font-size: 5rem;
         }
         .titulo-flex img{
-            width:7rem;
-            height:8rem;
+            width:10rem;
+            height:10rem;
+        
         }
-    /* LOGO */
+
+
+    /* SELLO */
 
     .logo{
         grid-column: 9/10;
@@ -78,11 +81,13 @@
         align-items: flex-end;
     }
     .logo img {
-        width: 8rem;
-        height: 11rem;
+        width: 10rem;
+        height: 10rem;
     }
 
+
 /* CARTA */
+
 .contenedor-secciones {
 display: grid;
 grid-template-columns: repeat(4,1fr);

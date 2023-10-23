@@ -31,6 +31,13 @@ header{
         height:7rem;
     }
 
+
+    /* H1, TÍTULO STYLE*/
+
+    h1{ 
+        font-family: 'Playfair Display SC', serif;
+    }
+
     /*FOOTER STYLE*/
     
     footer {
