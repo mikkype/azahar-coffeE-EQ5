@@ -42,7 +42,7 @@ header{
     
     footer {
     
-        display: flex;
+        display: block;
         justify-content: space-around;
         height: 15rem;
         margin: 2rem 2rem 2rem 2rem;
@@ -71,7 +71,7 @@ header{
         display: flex;
     }
     
-        
+    
 
 /*NAV STYLE*/
 
@@ -162,7 +162,7 @@ header{
         background-color: #966458;
     }
     .separador {
-        width: 80%;
+        width: 90%;
         height: 1rem;
         background: #f5e4e2;
     }
