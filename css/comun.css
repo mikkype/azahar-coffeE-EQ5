@@ -148,8 +148,11 @@ header{
  /* BODY STYLE: */
     .primera-linea{
         background-color: #935a68;
-    text-align: center;
+        margin: 2REM 0 2rem 0;
+        text-align: center;
         width: 70%;
+        height: 6rem;
+        padding-left: 3rem;
     }
     .contenedor-productos{
         columns: 2;
@@ -162,7 +165,6 @@ header{
         background-color: #966458;
     }
     .separador {
-        width: 90%;
         height: 1rem;
         background: #f5e4e2;
     }

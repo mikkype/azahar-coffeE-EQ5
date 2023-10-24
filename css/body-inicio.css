@@ -89,11 +89,9 @@
   z-index: 1;
 }
 
-.info-inicio1{
-  
-}
 
-.info-inicio2 {
+
+.info-inicio {
   background-color: #F2DADA;
   padding: 2rem;
   text-align: center;
@@ -102,7 +100,7 @@
   margin: 4rem 0 4rem 0;
 }
 
-.info-inicio2 p {
+.info-inicio p {
   font-weight: 600;
 }
 
