@@ -1,0 +1,15 @@
+footer {
+    margin: 2rem 2rem 2rem 2rem;
+}
+footer img{
+    width: 5rem;
+    height: 5rem;
+}
+.map-compra{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.map{
+    display: flex;
+}

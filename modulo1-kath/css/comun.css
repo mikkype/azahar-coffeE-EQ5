@@ -1,0 +1,171 @@
+
+
+
+/* COMÚN: */
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ab827e;
+}
+html{
+    font-size: 62.5%;
+    }
+    body{
+    font-size: 16px;;
+    }
+
+header{
+        text-align: center;
+    }
+    
+    .titulo img{
+        width:6rem;
+        height:7rem;
+    }
+
+
+    /* H1, TÍTULO STYLE*/
+
+    h1{ 
+        font-family: 'Playfair Display SC', serif;
+    }
+
+    /*FOOTER STYLE*/
+    
+    footer {
+    
+        display: block;
+        justify-content: space-around;
+        height: 15rem;
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    footer img{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    footer hr{
+        width:max-content;
+        height: 1px;
+        margin: 0px;
+        color: #D2B6B3;
+        opacity: 0.5;
+    }
+
+   
+    .map-compra{
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem;
+    }
+    .map{
+        display: flex;
+    }
+    
+    
+
+/*NAV STYLE*/
+
+    .contenedor-nav-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar {
+        display: flex;
+        background: #b39290;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    
+    .navbar a {
+        padding: 1.4rem 2rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    .navbar a:hover {
+        background-color: black;
+        text-decoration: none;
+    
+    }
+    
+    nav img {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .rectangulo {
+        height: 1rem;
+        background: #D2B6B3;
+    }
+    
+    .logo img {
+        width: 8rem;
+        height: 11rem;
+    }
+    
+
+
+    /* CARTA */
+
+    .contenedor-secciones {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .globos {
+        background-color: rgb(255, 230, 232);
+        border-radius: 80%;
+        width: 60rem;
+    }
+    
+    .contenedor-secciones .globos a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    @media screen and (max-width: 700px) {
+        .navbar {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    
+
+ /* BODY STYLE: */
+    .primera-linea{
+        background-color: #935a68;
+        margin: 2REM 0 2rem 0;
+        text-align: center;
+        width: 70%;
+        height: 6rem;
+        padding-left: 3rem;
+    }
+    .contenedor-productos{
+        columns: 2;
+    
+    }
+    .producto{
+        display: flex;
+    }
+    .descripcion{
+        background-color: #966458;
+    }
+    .separador {
+        height: 1rem;
+        background: #f5e4e2;
+    }
+    
