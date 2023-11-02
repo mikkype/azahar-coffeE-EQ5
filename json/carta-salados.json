@@ -1,0 +1,26 @@
+{
+    "salados": [
+        {
+            "Nombre":"UN CIELO DE FAROLILLOS...",
+            "Descripción":"…que va alumbrando la calle! Este original y colorido snack de picoteo consta de una gamba, tortilla de patatas y jamón, colocados verticalmente en una alegre y sabrosa representación de los tonos y sabores de la feria de Sevilla.",
+            "Precio" :"4.00 €"
+        },
+        {
+            "Nomnbre":"HUEVOS A LA BECHAMEL",
+            "Descripción":"Huevos hervidos rellenos con bechamel casera. ¡El favorito de nuestros más pequeños!",
+            "Precio":"3.20 €"
+        },
+        {
+            "Nombre":"BOCATA DEL CASÓN",
+            "Descripción":"Un bocata con pollo, jamón serrano, huevo frito, cebolla caramelizada, queso cheddar o queso de cabra, pimiento y tomate. El verdadero sabor del sur.",
+            "Precio":"4.50 €"
+
+        },
+        {
+            "Nombre":"MONTAITO DE LA CASA",
+            "Descripción":"Un montaito a elegir entre: Jamón serrano y salmorejo, pringá de la casa, mantecaíto, sobrasada, piripi, capote, carne mechá y lomo.",
+            "Precio":" 2.50 €"
+
+        }
+    ]
+}
