@@ -1,0 +1,24 @@
+{
+    "bebidas": [
+        {
+            "Nombre":"CAFÉS",
+            "Descripción":"Tanto tradicionales como cafés más originales y novedosos (Orange Coffee, por ejemplo, una recomendación que damos siempre), ofrecemos gran variedad para satisfacer a todo paladar.",
+            "Precio":"1.50 €"
+        },
+        {
+            "Nombre":"SMOOTHIES",
+            "Descripción":"Plátano, pera, manzana, mango, naranja, fresa, kiwi, melón, sandía, arándanos, frambuesa, cereza, piña durazno… Nuestra estrella es el Azahar Coffee, pero, si no te convence, ¡elige hasta 5 frutas, y crea tu bebida saludable personalizada!",
+            "Precio":"2.80 €"
+        },
+        {
+            "Nombre":"BATIDOS",
+            "Descripción":"Deliciosos batidos con leche, servidos fríos. Sabores: chocolate, vainilla, azahar, fresa, melocotón, leche merengada.",
+            "Precio":"1.80 €"
+        },
+        {
+            "Nombre":"ZUMOS",
+            "Descripción":"Un acierto en cualquier estación. Zumos naturales, de las frutas más frescas y refrescantes. Naranja, manzana, piña o melocotón.",
+            "Precio":"2.00 €"
+        }
+    ]
+}
