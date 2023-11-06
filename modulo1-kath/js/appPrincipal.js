@@ -27,12 +27,12 @@ function init() {
             const quintoItem = data[4];
 
             document.getElementById("nombre4").textContent = quintoItem.Nombre;
-            document.getElementById("Descripcion4").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + tercerItem.Descripción + '<span id="precio2" class="text-justify float-right"></span>';
+            document.getElementById("Descripcion4").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + quintoItem.Descripción + '<span id="precio4" class="text-justify float-right"></span>';
             document.getElementById("precio4").textContent = quintoItem.Precio;
             const sextoItem = data[5];
-            
+
             document.getElementById("nombre5").textContent = sextoItem.Nombre;
-            document.getElementById("Descripcion5").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + cuartoItem.Descripción + '<span id="precio3" class="text-justify float-right"></span>';
+            document.getElementById("Descripcion5").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + sextoItem.Descripción + '<span id="precio5" class="text-justify float-right"></span>';
             document.getElementById("precio5").textContent = sextoItem.Precio;
         })
         .catch(error => console.error("Error al cargar el JSON: " + error));
