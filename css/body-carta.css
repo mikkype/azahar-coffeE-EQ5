@@ -2,32 +2,29 @@
 .carta{
     background-color: #332726;
 }
+.foto-decripcion{
+    height: 18rem;
+}
 .cabecera-productoscarta {
     color: #9c6a76;
-    height: 20rem;
-    margin: 2rem 2rem;
 }
 
 .cabecera-productoscarta img {
     width: 16rem;
     height: 14rem;
-    margin: 0 1rem 0 1rem;
 }
 
 .cabecera-productoscarta h3 {
     background-color: #d9d9d9;
-    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .cuadro-descripcion{
     background-color: #efefef;
-    display: flex;
 }
-.cuadro-descripcion p:nth-child(2) {
-    display: flex;
-    align-self: flex-end;
-    justify-content: end;
+.cuadro-descripcion span:nth-child(2) {
     color:#FF0000
 }
+
 .subrayado {
     position: relative;
 }
@@ -41,10 +38,6 @@
     height: 0.4rem; /* Grosor del borde */
     background-color: #9c6a76; /* Color del borde */
 }
-
-
-/* ---------------------------- */
-
 .primera-linea {
     
     background-color: #935a68;
@@ -53,6 +46,10 @@
     width: 80%;
 
 }
+
+/* ---------------------------- */
+
+
 
 .contenedor-productos {
     display: grid;

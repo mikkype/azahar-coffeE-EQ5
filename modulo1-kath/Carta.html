@@ -4,16 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<<<<<<< HEAD
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-=======
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <script src="../bootstrap/js/bootstrap.min.js"></script>
->>>>>>> 400fa8aced3f4ab880f44089c7e4c2156f2a4304
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-    
+    <script src="js/appPrincipal.js"></script>
+    <script src="/json/cartaPrincipal.json"></script>
 </head>
 
 <body>
@@ -82,110 +77,86 @@
     <!-- CARRUSEL O SLIDER -->
 
     <div class="row primera-linea ">
-        <h2>NUESTROS MÁS VENDIDOS</h2>
+        <h2>NUESTROS SALADOS</h2>
     </div>
     <div class="carta container-fluid ">
 
         <div class="row ">
-            <div class="columna col-lg-6 col-md-12">
-                <div class="cabecera-productoscarta ">
-                    <h3 class="subrayado ">ORANGE COFEE</h3>
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
+            <!-- columnaA -->
+            <div class="columna col-lg-6 col-md-12 text-center">
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre" class="subrayado "></h3>
 
-                        <div class="col-lg-4  ">
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex   py-3 ">
+                        <div class="col-lg-4  col-md-4">
                             <img src="img/v1.jpeg" alt="">
                         </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span> Un café helado, con naranja, azúcar y crema.</p>
-                            <p>Precio: 2.20€</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 class="subrayado">AZAHAR TASTE</h3>
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
-                        <div class="col-lg-4  ">
-                            <img src="img/v2.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span> Un bizcocho con el más puro sabor a naranja, con azúcar
-                                glass y
-                                rodajas de
-                                naranja. </p>
-                            <p> Precio:3.00€ </p>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8 ">
+                            <p id="Descripcion" class="text-justify"> </p>
                         </div>
 
                     </div>
                 </div>
                 <div class="cabecera-productoscarta row">
-                    <h3 class="subrayado">SELVA NEGRA</h3>
+                    <h3 id="nombre1" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  py-3">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="img/v2.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion1" class="text-justify"></p>
+                            </div>
+                        </div>
+                </div>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre2" class="subrayado"></h3>
 
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
-                        <div class="col-lg-4  ">
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
                             <img src="img/v3.jpeg" alt="">
                         </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span>Una tarta en capas que consta de bizcocho genovés de
-                                chocolate
-                                embebido en
-                                almíbar con Kirsch, relleno y recubierto de crema chantillí y cerezas. </p>
-                            <p> Precio:3.80€ </p>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion2" class="text-justify"></p>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="columna col-lg-6 col-md-12">
+            <!-- columna B -->
+            <div class="columna col-lg-6 col-md-12 text-center">
                 <div class="cabecera-productoscarta row">
-                    <h3 class="subrayado">TARTA DE QUESO</h3>
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
-                        <div class="col-lg-4  ">
-                            <img src="img/v4.jpeg" alt="">
+                    <h3 id="nombre3" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v3.jpeg" alt="">
                         </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span>Tostada y cremosa, esta tarta de queso, galleta y flan es
-                                siempre
-                                una buena
-                                elección. Servida fría y apta para cualquier estación, ¿a quién no le gusta una buena
-                                tarta
-                                de queso? </p>
-                            <p> Precio: 3.50€</p>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion3" class="text-justify"></p>
                         </div>
-
                     </div>
                 </div>
                 <div class="cabecera-productoscarta row">
-                    <h3 class="subrayado">SMOOTHIE AZAHAR</h3>
+                    <h3 id="nombre4" class="subrayado"></h3>
 
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
-                        <div class="col-lg-4  ">
-                            <img src="img/v5.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span>Un smoothie hecho con naranja, plátano, pera y nuestro
-                                ingrediente
-                                secreto no
-                                tan secreto: el azahar. Usando un poco de azúcar y leche, conseguimos una bebida
-                                refrescante, saludable y deliciosa. </p>
-                            <p> Precio: 3.30€</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 class="subrayado">MONTADITO DE LOMO</h3>
-
-                    <div class=" col-lg-12 col-md-6 d-flex py-3">
-                        <div class="col-lg-4  ">
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
                             <img src="img/v6.jpeg" alt="">
                         </div>
-                        <div class="cuadro-descripcion col-8">
-                            <p><span>Descripcion:</span>Un montaito a elegir entre: Jamón serrano y salmorejo, pringá de
-                                la
-                                casa,
-                                mantecaíto, sobrasada, piripi, capote, carne mechá y lomo. </p>
-                            <p> Precio:2.50€ </p>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion4" class="text-justify"></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre5" class="subrayado"></h3>
+
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v5.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion5" class="text-justify"></p>
                         </div>
 
                     </div>

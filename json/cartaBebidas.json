@@ -1,5 +1,4 @@
-{
-    "bebidas": [
+ [
         {
             "Nombre":"CAFÉS",
             "Descripción":"Tanto tradicionales como cafés más originales y novedosos (Orange Coffee, por ejemplo, una recomendación que damos siempre), ofrecemos gran variedad para satisfacer a todo paladar.",
@@ -21,4 +20,3 @@
             "Precio":"2.00 €"
         }
     ]
-}

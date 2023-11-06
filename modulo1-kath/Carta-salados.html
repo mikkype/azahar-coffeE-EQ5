@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<<<<<<< HEAD
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-=======
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Document</title>    
     <script src="../bootstrap/js/bootstrap.min.js"></script>
->>>>>>> 400fa8aced3f4ab880f44089c7e4c2156f2a4304
+
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script src="js/appSalado.js"></script>
+    <script src="/json/cartaSalados.json"></script>
     
 </head>
 
@@ -79,98 +77,70 @@
     </header>
 
     <!-- CUERPO -->
-    <main class="cuerpo">
+    <div class="row primera-linea ">
+        <h2>NUESTROS SALADOS</h2>
+    </div>
+    <div class="carta container-fluid ">
 
-        <div class="primera-linea">
-            <div class="contenedor-productos">
-            <h2>SALADOS</h2>
-        </div> </div>
-        <div class="contenedor-productos">
+        <div class="row ">
+            <div class="columna col-lg-6 col-md-12 text-center">
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre" class="subrayado "></h3>
 
-            <div class="producto">
-                <div class="cabecera-productos">
-                    <div class="titulo-barra-box">
-                        <h3>UN CIELO DE FAROLILLOS...</h3>
-                        <div class="titulo-barra"></div>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex   py-3 ">
+                        <div class="col-lg-4  col-md-4">
+                            <img src="img/v10.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8 ">
+                            <p id="Descripcion" class="text-justify"> </p>
+                        </div>
+
                     </div>
-
-                    <img src="img/estrella.png" alt="">
                 </div>
-                <div class="contenedor-img-desc">
-                    <img src="img/v10.jpeg" alt="">
-                    <div class="Descripcion">
-                        <div class="espacio"></div>
-                        <p>…que va alumbrando la calle! Este original y colorido snack de picoteo consta de una gamba, tortilla de patatas y jamón, colocados verticalmente en una alegre y sabrosa representación de los tonos y sabores de la feria de Sevilla.</p>
-                        <p> 4.00€</p>
-                        <div class="espacio"></div>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre1" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  py-3">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="img/v12.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion1" class="text-justify"></p>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="columna col-lg-6 col-md-12 text-center">
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre2" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v11.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion2" class="text-justify"></p>
+                        </div>
+                    </div>
+                </div>
+                <p><span></span></p>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre3" class="subrayado"></h3>
+
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v6.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion3" class="text-justify"></p>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="producto">
-                <div class="cabecera-productos">
-                    <div class="titulo-barra-box">
-                        <h3>HUEVOS A LA BECHAMEL</h3>
-                        <div class="titulo-barra"></div>
-                    </div>
-
-                    <img src="img/estrella.png" alt="">
-                </div>
-                <div class="contenedor-img-desc">
-                    <img src="img/v11.jpeg" alt="">
-                    <div class="Descripcion">
-                        <div class="espacio"></div>
-                        <p>Huevos hervidos rellenos con bechamel casera. ¡El favorito de nuestros más pequeños!</p>                       </p>
-                        <p> 3.20€ </p>
-                        <div class="espacio"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="producto">
-                <div class="cabecera-productos">
-                    <div class="titulo-barra-box">
-                        <h3>BOCATA DEL CASÓN</h3>
-                        <div class="titulo-barra"></div>
-                    </div>
-
-                    <img src="img/estrella.png" alt="">
-                </div>
-                <div class="contenedor-img-desc">
-                    <img src="img/v12.jpeg" alt="">
-                    <div class="Descripcion">
-                        <div class="espacio"></div>
-                        <p>Un bocata con pollo, jamón serrano, huevo frito, cebolla caramelizada, queso cheddar o queso de cabra, pimiento y tomate. El verdadero sabor del sur.</p>
-                        <p> 4.50€ </p>
-                        <div class="espacio"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="producto">
-                <div class="cabecera-productos">
-                    <div class="titulo-barra-box">
-                        <h3>MONTAITO DE LA CASA</h3>
-                        <div class="titulo-barra"></div>
-                    </div>
-                    <img src="img/estrella.png" alt="">
-                </div>
-                <div class="contenedor-img-desc">
-                    <img src="img/v6.jpeg" alt="">
-                    <div class="Descripcion">
-                        <div class="espacio"></div>
-                        <p>Un montaito a elegir entre: Jamón serrano y salmorejo, pringá de la casa, mantecaíto, sobrasada, piripi, capote, carne mechá y lomo.</p>
-                        <p> 2.50€</p>
-                        <div class="espacio"></div>
-                    </div>
-                </div>
-            </div>
-
-        
         </div>
-    </main>
-
-
+    </div>
+    
     <!-- FOOTER -->
 
     <footer>

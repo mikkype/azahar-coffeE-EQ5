@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<<<<<<< HEAD
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.min.css">
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-=======
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <script src="../bootstrap/js/bootstrap.min.js"></script>
->>>>>>> 400fa8aced3f4ab880f44089c7e4c2156f2a4304
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script src="js/appPreamiados.js"></script>
+    <script src="/json/cartaPremiados.json"></script>
     
 </head>
 
@@ -79,107 +75,69 @@
     </header>
 
     <!-- CUERPO -->
-    <main class="cuerpo">
+    <div class="row primera-linea ">
+        <h2>NUESTROS Premiados</h2>
+    </div>
+    <div class="carta container-fluid ">
 
-        <!-- CARRUSEL O SLIDER -->
+        <div class="row ">
+            <div class="columna col-lg-6 col-md-12 text-center">
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre" class="subrayado "></h3>
 
-        <div class="primera-linea">
-        <div class="contenedor-productos">
-            <h2>NUESTROS PREMIADOS</h2>
-        </div></div>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex   py-3 ">
+                        <div class="col-lg-4  col-md-4">
+                            <img src="img/v2.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8 ">
+                            <p id="Descripcion" class="text-justify"> </p>
+                        </div>
 
-<div class="contenedor-productos">
-        <div class="producto">
-            <div class="cabecera-productos">
-                <div class="titulo-barra-box">
-                    <h3>AZAHAR TASTE</h3>
-                    <div class="titulo-barra"></div>
-                </div>
-
-                <img src="img/estrella.png" alt="">
-            </div>
-            <div class="contenedor-img-desc">
-                <img src="img/v2.jpeg" alt="">
-                <div class="Descripcion">
-                    <div class="espacio"></div>
-                    <p><span>Descripcion:</span> Un bizcocho con el más puro sabor a naranja, con azúcar glass y rodajas de
-                        naranja. </p>
-                    <p> 3.00€ </p>
-                    <div class="espacio"></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="producto">
-            <div class="cabecera-productos">
-                <div class="titulo-barra-box">
-                    <h3>MADE IN UTRERA</h3>
-                    <div class="titulo-barra"></div>
-                </div>
-                <img src="img/estrella.png" alt="">
-            </div>
-            <div class="contenedor-img-desc">
-                <img src="img/v7.jpeg" alt="">
-                <div class="Descripcion">
-                    <div class="espacio"></div>
-                    <p>Los tradicionales Mostachones de Utrera, son un bizcocho plano y redondo, hecho de harina, azúcar y huevo. Puede parecer simple, pero su sabor es impecable. Ligeros y deliciosos, lo consideramos un desayuno perfecto.                        </p>
-                    <p> 1.30€</p>
-                    <div class="espacio"></div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="producto">
-            <div class="cabecera-productos">
-                <div class="titulo-barra-box">
-                    <h3>SAETA DULCE</h3>
-                    <div class="titulo-barra"></div>
-                </div>
-                <img src="img/estrella.png" alt="">
-            </div>
-            <div class="contenedor-img-desc">
-                <img src="img/v8.jpeg" alt="">
-                <div class="Descripcion">
-                    <div class="espacio"></div>
-                    <p>El dulce estrella de la ciudad del Azahar, Sevilla, hecho con miel, azúcar, leche, canela, limón y huevo, es característico de la Semana Santa. ¡Pero, como están tan ricas, lo queremos siempre! ( 2 unidades )</p>
-                    <p> 3.00€</p>
-                    <div class="espacio"></div>
-                </div>
-            </div>
-        </div>
-
-
-
-      
-
-            <div class="producto">
-                <div class="cabecera-productos">
-                    <div class="titulo-barra-box">
-                        <h3>UN CIELO DE FAROLILLOS...</h3>
-                        <div class="titulo-barra"></div>
                     </div>
-
-                    <img src="img/estrella.png" alt="">
                 </div>
-                <div class="contenedor-img-desc">
-                    <img src="img/v10.jpeg" alt="">
-                    <div class="Descripcion">
-                        <div class="espacio"></div>
-                        <p>…que va alumbrando la calle! Este original y colorido snack de picoteo consta de una gamba, tortilla de patatas y jamón, colocados verticalmente en una alegre y sabrosa representación de los tonos y sabores de la feria de Sevilla.</p>
-                        <p> 4.00€</p>
-                        <div class="espacio"></div>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre1" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  py-3">
+                            <div class="col-lg-4 col-md-4">
+                                <img src="img/v7.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion1" class="text-justify"></p>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="columna col-lg-6 col-md-12 text-center">
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre2" class="subrayado"></h3>
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v8.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion2" class="text-justify"></p>
+                        </div>
+                    </div>
+                </div>
+                <p><span></span></p>
+                <div class="cabecera-productoscarta row">
+                    <h3 id="nombre3" class="subrayado"></h3>
+
+                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                        <div class="col-lg-4 col-md-4  ">
+                            <img src="img/v10.jpeg" alt="">
+                        </div>
+                        <div class="cuadro-descripcion col-lg-8 col-md-8">
+                            <p id="Descripcion3" class="text-justify"></p>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            </div>
-            
 
-
-   
-   
- </main> 
+        </div>
+    </div>
     
     <!-- FOOTER -->
 
