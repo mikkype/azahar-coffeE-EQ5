@@ -67,7 +67,25 @@ form textarea{
 	margin: 10px;
 	color: #350808;
 }
-
+.formulariobox {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid #3498db;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+  }
+  
+  .formulariobox::before, .formulariobox::after {
+	content: ' ';
+	display: table;
+  }
+  
+  .formulariobox::after {
+	clear: both;
+  }
 
 .icon {
     float : right;
