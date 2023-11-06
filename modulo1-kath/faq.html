@@ -8,7 +8,10 @@
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <script src="js/form.js"></script>
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
@@ -93,9 +96,91 @@
             </div>
         </div>
 
+
+            <!-- OPINIONES -->
+       
+
+
+        
+          <div class="row">
+            <div class='col-md-offset-2 col-md-8 text-center'>
+            <h2>Algunas de nuestras opiniones...</h2>
+            </div>
+          
+          <div class='row'>
+            <div class='col-md-offset-2 col-md-8'>
+              <div class="carousel-slide" data-ride="carousel" id="quote-carousel">
+                <!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0"></li>
+                  <li data-target="#quote-carousel" data-slide-to="1"></li>
+                  <li data-target="#quote-carousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner">
+                
+                  <!-- Quote 1 -->
+                  <div class="item active">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="http://www.reactiongifs.com/r/overbite.gif" style="width: 100px;height:100px;">
+                          <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                        </div>
+                        <div class="col-sm-9">
+                          <p>Una experiencia culinaria que estoy deseando repetir. Una ubicación magífica y unos platos deliciosos. Mi favorito ha sido 'Un cielo de farolillos', que no defrauda al paladar.</p>
+                          <small>José Miguel Cordón</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 2 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
+                        </div>
+                        <div class="col-sm-9">
+                          <p> Ir a Azahar Coffee ha sido una experiencia fantástica. Sus dulces son magníficos, pero destaco sobre todo su plato 'Saeta Dulce'. ¡Todo un acierto!</p>
+                          <small>María Millán Romero</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 3 -->
+                  <div class="item" data-="">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
+                        </div>
+                        <div class="col-sm-9">
+                          <p> He ido con muchas expectativas dadas las buenas reseñas que había visto y todas las geniales experiencias que me han contado... Y por fin puedo confirmar que es incluso mejor. </p>
+                          <small>Jesús Santos</small>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+                
+                <!-- Carousel Buttons Next/Prev -->
+                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+              </div>                          
+            </div>
+          </div>
+        </div>
+        
+
         <!--formulario a llenar JS-->
-        <h3>En Azahar Coffee valoramos tu opinion ,por eso te invitamos a dejarnos tu comentario acerca de nuestros
+        <br><br><br>
+        
+        <div class= "formulariobox">
+        <h3>En Azahar Coffee valoramos tu opinión. Por eso te invitamos a dejarnos tu comentario acerca de nuestros
             servicio o producto.</h3>
+        </div>
         <form action="" id="formulario1">
             <label for="Nombre">Nombre</label>
             <input type="text" name="elemento1" id="elemento1" />
