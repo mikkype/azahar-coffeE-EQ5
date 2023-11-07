@@ -51,7 +51,6 @@ form textarea{
 
 }
 
-/*faq*/
 .faq {
     max-width: 70%;
     margin: 50 auto;
@@ -106,3 +105,4 @@ form textarea{
 #comentarioMostrado{
 	font-size: 24px;
 }
+
