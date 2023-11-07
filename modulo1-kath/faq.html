@@ -55,38 +55,12 @@
 </div>
 
   <!-- CUERPO -->
-  <main class="cuerpo">
+  
 
     <!-- CARRUSEL O SLIDER -->
 
     <!--PREGUNTAS Y RESPUESTAS-->
-    <div class="faq">
-      <div class="question">
-        <h2>¿Ofrecéis alternativas para vegetarianos o veganos?</h2>
-        <span class="icon">+</span>
-      </div>
-      <div class="answer">
-        <h4>¡Sí! Ofrecemos alternativas para todo tipo de dietas,
-          intolerancias y alergias. ¡Pregúntanos sin compromiso!</h4>
-      </div>
-      <div class="question">
-        <h2>No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?</h2>
-        <span class="icon">+</span>
-      </div>
-      <div class="answer">
-        <h4>¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
-          disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
-          página y localízanos!</h4>
-      </div>
-      <div class="question">
-        <h2>¿Cuál es vuestro horario? </h2>
-        <span class="icon">+</span>
-      </div>
-      <div class="answer">
-        <h4>Abrimos de 5a.m a 2p.m ininterrumpidamente.
-          ¡Luego puedes hacer tu pedido escoger tu hora de recogida!</h4>
-      </div>
-    </div>
+    
 
 
     <!-- OPINIONES -->
@@ -101,22 +75,109 @@
         <!--formulario a llenar JS-->
         <br><br><br>
         
-        <div class= "formulariobox">
-        <h3>En Azahar Coffee valoramos tu opinión. Por eso te invitamos a dejarnos tu comentario acerca de nuestros
-            servicio o producto.</h3>
+        
+
+      
+      <main id="faq" class="py-md-5">
+        <h1 class="my-5 text-center text-uppercase">faq</h1>
+        <div class="container">
+          <div class="accordion mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Ofrecéis alternativas para vegetarianos o veganos?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  ¡Sí! Ofrecemos alternativas para todo tipo de dietas,
+                  intolerancias y alergias. ¡Pregúntanos sin compromiso!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
+                  disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
+                  página y localízanos!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Cuál es vuestro horario?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Abrimos de 5a.m a 2p.m ininterrumpidamente.
+                  ¡Luego puedes hacer tu pedido escoger tu hora de recogida!
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
         </div>
-        <form action="" id="formulario1">
-            <label for="Nombre">Nombre</label>
-            <input type="text" name="elemento1" id="elemento1" />
-            <label for="mensaje">Comentario</label>
-            <textarea id="mostrar" name="mostrar" rows="6" cols="60"></textarea>
-            <button type="button" onclick="mostrarComentario()">Enviar</button>
-            <button type="reset">Limpiar</button>
+    
+      </main>
+      <!--formulario-->
+      <main id="form" class="py-md-3">
+        <h1 class="text-center text-uppercase">formulario</h1>
+        <div class="container">
+          <form class="formulario">
+            <!-- Name input -->
+            <div class="form-outline mb-2">
+              <label class="form-label text-dark fw-semibold" for="form4Example1">Nombre</label>
+              <input type="text" id="form4Example1" class="form-control" />
+            </div>
+    
+            <!-- Email input -->
+            <div class="form-outline mb-2">
+              <label class="form-label text-dark fw-semibold" for="form4Example2">Email</label>
+              <input type="email" id="form4Example2" class="form-control" />
+    
+            </div>
+    
+            <!-- Message input -->
+            <div class="form-outline mb-2">
+              <label class="form-label text-dark fw-semibold" for="form4Example3">Mensaje</label>
+              <textarea class="form-control" id="form4Example3" rows="5"></textarea>
+    
+            </div>
+    
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label text-dark fw-semibold " for="form4Example4">
+                Enviar me una copia de este mensaje
+              </label>
+            </div>
+    
+            <!-- Submit button -->
+            <div class="d-flex justify-content-center ">
+              <button type="button" onclick="mostrarComentario()"
+                class="btn btn-primary fw-semibold mb-2 me-2">Enviar</button>
+              <button type="reset" class="btn btn-primary fw-semibold mb-2">limpiar</button>
+            </div>
+          </form>
+        </div>
+      </main>
 
-      </form>
 
+      <div id="comentarioMostrado">
 
-      <div id="comentarioMostrado"></div>
+      </div>
       <div class="frame">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.930793844281!2d-5.986878600000001!3d37.3914689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1cccc290af%3A0x81510763c3b2ddcd!2sAzahar!5e0!3m2!1ses!2ses!4v1697791935527!5m2!1ses!2ses"
@@ -124,7 +185,7 @@
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
-  </main>
+  
 
 
   <!-- FOOTER -->
