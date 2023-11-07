@@ -1,6 +1,7 @@
 /* Modificacion para la pagina carta */
 .carta{
     background-color: #332726;
+    padding: 1rem 1rem 0rem 1rem;
 }
 .foto-decripcion{
     height: 18rem;
@@ -51,75 +52,7 @@
 
 
 
-.contenedor-productos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem 10rem;
-}
 
-.producto {
-    display: grid;
-    grid-template-rows: 1fr,2fr;
-    grid-gap: 2rem;
-}
-
-
-
-.cabecera-productos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    grid-gap: 2rem ;
-    color: #9c6a76;
-}
-
-.cabecera-productos img {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-
-.cabecera-productos h3 {
-    background-color: #d9d9d9;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.contenedor-img-desc {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem ;
-}
-.contenedor-img-desc img {
-    width: 100%;
-    height: 100%;
-}
-
-.descripcion {
-    display: grid;
-    grid-template-rows: 1fr,1fr,1fr,1fr;
-    background-color: #966458;
-    color: aliceblue;
-}
-.descripcion p{
-    padding:0 2rem;
-
-}
-.descripcion span{
-    font-weight: bold;
-}
-.descripcion p:nth-of-type(2) {
-    display: flex;
-    justify-content: flex-end; 
-}
-.titulo-barra-box{
-    display: grid;
-    grid-template-rows: 3fr,1fr;
-}
-.titulo-barra{
-    background-color: #935a68;
-    width: 45%;
-    height: 0.5rem;
-}
 
 .premiado1-box {
     margin-top: 20px;

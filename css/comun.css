@@ -40,26 +40,20 @@ header{
 
     /*FOOTER STYLE*/
     
-    footer {
-    
-        display: block;
-        justify-content: space-around;
-        height: 15rem;
+    .fot {
         margin: 2rem 2rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 1rem;
+        background-color: #dcd2d2; /* Cambia el color de fondo a tu elección */
+        color: #000000; /* Cambia el color del texto a tu elección */
+        box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);
     }
 
-    footer img{
+    .fot img{
         width: 5rem;
         height: 5rem;
+        padding-left: 0.5rem;
     }
     
-    footer hr{
-        width:max-content;
-        height: 1px;
-        margin: 0px;
-        color: #D2B6B3;
-        opacity: 0.5;
-    }
 
    
     .map-compra{
@@ -74,48 +68,20 @@ header{
     
 
 /*NAV STYLE*/
-
-    .contenedor-nav-logo {
-        display: flex;
-        align-items: center;
+    .navi{
+        list-style: none;
     }
-    
-    .navbar {
-        display: flex;
-        background: #b39290;
-        justify-content: center;
-        padding: 0.5rem;
-    }
-    
-    .navbar a {
-        padding: 1.4rem 2rem;
+    .navi a{
         text-decoration: none;
-        font-size: 1.5rem;
-        color: black;
+        color: rgb(255, 255, 255);
+        
     }
-    
-    .navbar a:hover {
-        background-color: black;
-        text-decoration: none;
-    
+    .navi img {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        width:5rem;
+        height: 5rem;
     }
-    
-    nav img {
-        width: 4rem;
-        height: 4rem;
-    }
-    
-    .rectangulo {
-        height: 1rem;
-        background: #D2B6B3;
-    }
-    
-    .logo img {
-        width: 8rem;
-        height: 11rem;
-    }
-    
-
 
     /* CARTA */
 
@@ -136,12 +102,7 @@ header{
         font-weight: bold;
     }
     
-    @media screen and (max-width: 700px) {
-        .navbar {
-            flex-direction: column;
-            text-align: center;
-        }
-    }
+ 
 
     
 

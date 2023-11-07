@@ -1,5 +1,40 @@
+.heading{
+    background-color: black;
+}
+.fondo{
+    position: relative;
+    background-image: url(/modulo3-Alex/img/camarero-bar-upscaled.png);
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-about{
+    position: absolute;
+    font-size: 6rem;
+    top:60%;
 
 
-.box1 {
+} 
+
+.imagen img {
+    width: 80%;
+    height: 80%;
+
+}
+.about-content img{
+    width: 70rem;
+    height: 70rem;
+}
+.primer-texto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segundo-texto {
+    width: 100%;
+    text-align: center;
     
 }

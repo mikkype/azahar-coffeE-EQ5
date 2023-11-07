@@ -17,49 +17,41 @@
 <body>
     <!-- HEADER -->
 
-    <header>
-        <!-- CONTENEDOR CABECERA -->
-
-        <div class="contenedor-cabecera">
-            <!-- CONTENEDOR TITULO Y NAV-->
-
-            <div class="contenedor-titulo-nav">
-                <!-- CONTENEDOR TITULO (imagen y texto)-->
-
-                <div class="titulo-grid">
-                    <div class="titulo-flex">
-                        <img src="img/logo.png" alt="" width="">
-                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
-<h1>AZAHAR COFFEE</h1>
-                    </div>
-
-                </div>
-
-                <div class="rectangulo"></div>
-                <!-- NAVEGADOR -->
-                <div class="cabecera">
-                    <nav class="navbar">
-                        <img src="img/carta-de-vinos.png" alt="">
-                        <a href="Carta.html">CARTA </a>
-                        <img src="img/comunidad.png" alt="">
-                        <a href="/modulo3-Alex/aboutUs.html">ABOUT US</a>
-                        <img src="img/globos-de-texto.png" alt="">
-                        <a href="/modulo1-kath/faq.html">FAQ</a>
-
-                    </nav>
-                    <nav class="casa">
-                        <a href="/modulo3-Alex/inicio.html"><img src="img/casa.png" alt=""></a>
-                    </nav>
-                </div>
-                <div class="rectangulo"></div>
+    <div class="container-fluid  ">
+        <!-- FILA -->
+        <div class="row d-flex   py-3  ">
+            <!-- COLUMNA LOGO -->
+            <div class="subrayado col-lg-4 col-md-4 col-xs-12  text-center">
+                <img src="img/logo.png" alt="" width="">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap"
+                    rel="stylesheet">
+                <h1>AZAHAR COFFEE</h1>
             </div>
-            <!-- LOGOTIPO -->
-
-            <div class="logo">
-                <img src="img/descarga.png" alt="">
-            </div>
+            <!-- COLUMNA NAV -->
+    
+            <nav class=" col-md-8 col-xs-12  d-md-flex align-items-md-end justify-content-end text-uppercase py-3">
+                <!--carta-->
+                <ul class="navi d-md-flex   ">
+                    <li><a href="/modulo1-kath/Carta.html" class="d-flex align-items-center">
+                            <img src="img/carta-de-vinos.png" class="mb-2">
+                            carta</a></li>
+                    <!--aboutus-->
+                    <li><a href="/modulo3-Alex/aboutUs.html" class="d-flex align-items-center">
+                            <img src="img/comunidad.png" class="mb-2">
+                            about us</a></li>
+                    <!--faq-->
+                    <li><a href="/modulo1-kath/faq.html" class="d-flex align-items-center">
+                            <img src="img/globos-de-texto.png">
+                            FAQ</a></li>
+                        <!--regreso a inicio-->
+                    <li><a href="/modulo3-Alex/inicio.html" class="d-flex align-items-center">
+                            <img src="img/casa.png" class="mb-2">
+                            inicio</a></li>
+                </ul>
+            </nav>
         </div>
+    </div>
         <div class="contenedor-secciones">
             <div class="globos"><A href="Carta-salados.html">
                     <h2>Salados</h2>
@@ -143,17 +135,26 @@
     
     <!-- FOOTER -->
 
-    <footer>
-        <div class="separador"></div>
-
-        <div class="map-compra">
-            <div class="map">
-                <a href="mapa.html"><img src="img/ubicacion.png" alt=""></a>
-                <p>¡LOCALÍZANOS!</p>
+    <div class="container-fluid ">
+        <div class="row fot ">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center ">
+                <div>
+                    <a href="mapa.html"><img src="/img/marcador-de-posicion.png" alt=""></a>
+                </div>
+                <div class="text-md-center">
+                    <p>Somos tu destino ¡encuéntranos !</p>
+                </div>
             </div>
-            <img src="img/bolsa-de-la-compra.png" alt="">
+            <div class="col-lg-6 col-md-12  py-4 text-center">
+                <h2>Redes sociales</h2>
+                <a href="#"><img src="/img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/img/instagram.png" alt="Instagram"></a>
+                <!-- Agrega más íconos de redes sociales según sea necesario -->
+            </div>
+
         </div>
-    </footer>
+
+    </div>
 </body>
 
 </html>
