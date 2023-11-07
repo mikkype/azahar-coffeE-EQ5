@@ -64,7 +64,9 @@ flex-wrap: wrap;
     flex: 1;
     margin-right: 40px;
     overflow: hidden;
-  
+    width: 50%;
+    height: 50%;
+
 }
 
 .about-image img{

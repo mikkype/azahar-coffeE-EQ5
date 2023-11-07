@@ -33,3 +33,13 @@ function mostrarComentario() {
         alert("Por favor, complete tanto el campo de nombre como el campo de comentario.");
     }
 }
+
+// Función de carousel
+$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+    });
+  });
+  
