@@ -1,12 +1,5 @@
 
-.info-inicio {
-  background-color: #000000;
-  padding: 2rem;
-  text-align: center;
-  border-radius: 1rem; /* Añade bordes redondeados */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra */
-  margin: 4rem 0 4rem 0;
-}
+
 
 .info-inicio {
   width: 70%;
