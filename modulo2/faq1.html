@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="../js/form.js"></script>
+  <script src="../js/faq.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -58,6 +58,60 @@
   <!-- CARRUSEL O SLIDER -->
 
   <!--PREGUNTAS Y RESPUESTAS-->
+
+  <main id="faq" class="py-md-5">
+    <h1 class="my-5 text-center text-uppercase">faq</h1>
+    <div class="container">
+      <div class="accordion mx-auto" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Ofrecéis alternativas para vegetarianos o veganos?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¡Sí! Ofrecemos alternativas para todo tipo de dietas,
+              intolerancias y alergias. ¡Pregúntanos sin compromiso!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
+              disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
+              página y localízanos!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Cuál es vuestro horario?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Abrimos de 5a.m a 2p.m ininterrumpidamente.
+              ¡Luego puedes hacer tu pedido escoger tu hora de recogida!
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </main>
 
 
 
@@ -150,7 +204,7 @@
   <!-- OPINIONES -->
 
   <div class="container opiniones-container">
-    <div id="carouselExampleControls" class="carousel slide"  data-interval="2000">
+    <div id="carouselExampleControls" class="carousel slide"  data-ride="carousel" data-interval="2000">
       <div class="row ">
         <div class="col-1 d-flex justify-content-center">
           <a href="#carouselExampleControls" role="button" data-slide="prev">
@@ -216,20 +270,10 @@
   <div id="comentarioMostrado">
 
   </div>
-  <div class="frame">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.930793844281!2d-5.986878600000001!3d37.3914689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1cccc290af%3A0x81510763c3b2ddcd!2sAzahar!5e0!3m2!1ses!2ses!4v1697791935527!5m2!1ses!2ses"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-
-
-
-
-  <!-- FOOTER -->
+  <!--------------------------------------FOOTEER-->
 
   <div class="container-fluid ">
-    <div class="row fot ">
+    <div class="row foot ">
       <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center ">
         <div>
           <a href="mapa.html"><img src="/img/marcador-de-posicion.png" alt=""></a>

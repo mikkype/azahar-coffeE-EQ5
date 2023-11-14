@@ -18,19 +18,21 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 
-
-
 function mostrarComentario() {
-    alert("¡Gracias por dejarnos tu comentario! En breve podrás leerlo en esta sección.")
     
-    var elemento = document.getElementById('elemento1').value;
-    var comentario = document.getElementById('mostrar').value;
+    var nombre = document.getElementById('form4Example1').value;
+    var comentario = document.getElementById('form4Example3').value;
 
-    if (elemento && comentario) {
+    if (nombre && comentario) {
         var comentarioMostrado = document.getElementById('comentarioMostrado');
-        comentarioMostrado.innerHTML = '<p><b>' + elemento + '</b> dejó su comentario :</p> ' + comentario;
-    }else {
-        alert("Por favor, complete tanto el campo de nombre como el campo de comentario.");
+        comentarioMostrado.innerHTML +=
+        ` 
+        <div class="row bg-body-tertiary alert alert-info">
+        <div class=col-12>
+        <p><b>${nombre}</b> dejó su comentario : ${comentario}</p>
+        </div>
+        </div>
+        `
     }
 }
 
