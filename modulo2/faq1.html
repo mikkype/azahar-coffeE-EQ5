@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/index.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -96,92 +98,61 @@
 
     <!-- OPINIONES -->
 
-   
-
-            
-            <!-- Carousel Slides / Quotes -->
-            <div class="container">
-              <div class="row">
-                <div class='col-md-offset-2 col-md-8 text-center'>
-                <h2>¿Qué opinan nuestros clientes?</h2>
-                </div>
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="1000">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <blockquote>
+                      <div class="row ">
+                          <div class="col-sm-3 text-center">
+                              <img class="img-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
+                          </div>
+                          <div class="col-sm-9">
+                              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                  velit!</p>
+                              <small>Someone famous</small>
+                          </div>
+                      </div>
+                  </blockquote>
               </div>
-              <div class='row'>
-                <div class='col-md-offset-2 col-md-8'>
-                  <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                    <!-- Bottom Carousel Indicators -->
-                    <ol class="carousel-indicators">
-                      <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#quote-carousel" data-slide-to="1"></li>
-                      <li data-target="#quote-carousel" data-slide-to="2"></li>
-                    </ol>
-                    
-                    <!-- Carousel Slides / Quotes -->
-                    <div class="carousel-inner">
-
-              <!-- Quote 1 -->
-              <div class="item active">
-                <blockquote>
+              <div class="carousel-item">
                   <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_1.png" style="width: 100px;height:100px;">
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                      <small>Someone famous</small>
-                    </div>
+                      <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
+                      </div>
+                      <div class="col-sm-9">
+                          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                              velit!</p>
+                          <small>Someone famous</small>
+                      </div>
                   </div>
-                </blockquote>
               </div>
-              <!-- Quote 2 -->
-              <div class="item">
-                <blockquote>
+              <div class="carousel-item">
                   <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_2.png" style="width: 100px;height:100px;">
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                      <small>Someone famous</small>
-                    </div>
+                      <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
+                      </div>
+                      <div class="col-sm-9">
+                          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                              velit!</p>
+                          <small>Someone famous</small>
+                      </div>
                   </div>
-                </blockquote>
               </div>
-              <!-- Quote 3 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_3.png" style="width: 100px;height:100px;">
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                      <small>Someone famous</small>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-            </div>
-            
-            <!-- Carousel Buttons Next/Prev -->
-            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-          </div>                          
-        </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
       </div>
-    </div>
-
-
-
-
+  </div>
 
         <!--formulario a llenar JS-->
         <br><br><br>
-        
-        
-
-      
-      
       <!--formulario-->
       <main id="form" class="py-md-3">
         <h1 class="text-uppercase">formulario</h1>
