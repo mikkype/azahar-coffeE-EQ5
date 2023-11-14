@@ -1,22 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded",init)
 
-    var questions = document.querySelectorAll('.question');
-    var answers = document.querySelectorAll('.answer');
-
-    questions.forEach(function (question, index) {
-        question.addEventListener("click", function () {
-
-            answers.forEach(function (answer) {
-                answer.style.display = 'none';
-
-                answers[index].style.display = 'block';
-
-
-            });
-        });
-    });
-})
-
+function init() {
+    console.log('DOM cargado')
+}
 
 function mostrarComentario() {
     
@@ -36,12 +22,3 @@ function mostrarComentario() {
     }
 }
 
-// Función de carousel
-$(document).ready(function() {
-    //Set the carousel options
-    $('#quote-carousel').carousel({
-      pause: true,
-      interval: 4000,
-    });
-  });
-  
