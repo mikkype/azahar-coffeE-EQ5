@@ -3,12 +3,9 @@
 }
 .fondo{
     position: relative;
-    background-image: url(/modulo3-Alex/img/camarero-bar-upscaled.png);
     display: flex;
     justify-content: center;
     color: #ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .titulo-about{
     position: absolute;
