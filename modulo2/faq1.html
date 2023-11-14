@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="../js/faq.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/estilo.css">
@@ -54,6 +52,110 @@
 
   <!------------------------------CUERPO ------------------------->
 
+  <!-----------faq----------->
+  
+  <main id="faq" class="py-md-5">
+    <h1 class="my-5 text-center text-uppercase">faq</h1>
+
+    <div class="container">
+
+      <div class="accordion mx-auto" id="accordionExample">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Ofrecéis alternativas para vegetarianos o veganos?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¡Sí! Ofrecemos alternativas para todo tipo de dietas,
+              intolerancias y alergias. ¡Pregúntanos sin compromiso!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              No quiero pedir a domicilio, ni takeaway… ¿Puedo comer en el local?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              ¡Claro! Tenemos espacio para que todos nuestros clientes se relajen
+              disfrutando de una deliciosa comida en nuestro local. ¡Baja en esta
+              página y localízanos!
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Cuál es vuestro horario?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Abrimos de 5a.m a 2p.m ininterrumpidamente.
+              ¡Luego puedes hacer tu pedido escoger tu hora de recogida!
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </main>
+  <!--formulario-->
+  <main id="form" class="py-md-3">
+    <h1 class="text-center text-uppercase">formulario</h1>
+    <div class="container">
+      <form class="formulario">
+        <!-- Name input -->
+        <div class="form-outline mb-2">
+          <label class="form-label text-dark fw-semibold" for="form4Example1">Nombre</label>
+          <input type="text" id="form4Example1" class="form-control" />
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-2">
+          <label class="form-label text-dark fw-semibold" for="form4Example2">Email</label>
+          <input type="email" id="form4Example2" class="form-control" />
+
+        </div>
+
+        <!-- Message input -->
+        <div class="form-outline mb-2">
+          <label class="form-label text-dark fw-semibold" for="form4Example3">Mensaje</label>
+          <textarea class="form-control" id="form4Example3" rows="5"></textarea>
+
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+          <label class="form-check-label text-dark fw-semibold " for="form4Example4">
+            Enviar me una copia de este mensaje
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <div class="d-flex justify-content-center ">
+          <button type="button" onclick="mostrarComentario()"
+            class="btn btn-primary fw-semibold mb-2 me-2">Enviar</button>
+          <button type="reset" class="btn btn-primary fw-semibold mb-2">limpiar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
   
   
 <!--------comentarios------->
@@ -62,85 +164,71 @@
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- OPINIONES EN CARRUSEL------>
-
-  <div class="container opiniones-container">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
-      <div class="row ">
-        <div class="col-1 d-flex justify-content-center">
-          <a href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </div>
-        <div class="col-10">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle"
-                      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3U3OXN4enU4eXhoOWM5bzRibWFwY3k1ZjBhdWxxcGtkbDIwOTJrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y805gYQbkkkMT2bFCq/giphy.gif"
-                      style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
+<!-- OPINIONES EN CARRUSEL------>
+<!-------------------------------------------------->
+<div class="container opiniones-container">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <blockquote class="cita">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              <img class="rounded-circle"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3U3OXN4enU4eXhoOWM5bzRibWFwY3k1ZjBhdWxxcGtkbDIwOTJrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y805gYQbkkkMT2bFCq/giphy.gif"
+                style="width: 100px;height:100px;">
             </div>
-            <div class="carousel-item">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
+            <div class="col-sm-9">
+              <h3>Nombre:<span></span></h3>
+              <small>Someone famous</small>
             </div>
           </div>
-        </div>
-        <div class="col-1">
-          <a href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+          </blockquote>
+      </div>
+
+
+      <div class="carousel-item">
+        <blockquote class="cita">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
+            </div>
+            <div class="col-sm-9">
+              <h3>Nombre:<span></span></h3>
+              <small>Someone famous</small>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+
+
+
+      <div class="carousel-item">
+        <blockquote class="cita">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
+            </div>
+            <div class="col-sm-9">
+              <h3>Nombre:<span></span></h3>
+              <small>Someone famous</small>
+            </div>
+          </div>
+
+        </blockquote>
       </div>
     </div>
+
+    <!-- Controles del carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-
-
+</div>
   <!--------------------------------------FOOTEER-->
 
   <div class="container-fluid ">
