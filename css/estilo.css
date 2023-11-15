@@ -1,7 +1,7 @@
 @import "nav.css";
 @import "comun.css";
 @import "body.css";
-@import "form.css";
+@import "faq.css";
 @import "body-carta.css";
 @import "carta-premiados.css";
 @import "body-mapa.css";
@@ -9,6 +9,7 @@
 @import "body-aboutus.css";
 @import "carousel.css";
 @import "opiniones.css";
+@import "hero.css";
 
 
 

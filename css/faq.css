@@ -1,0 +1,37 @@
+.accordion {
+    width: min(80rem, 100%);
+    max-height: 50rem;
+    overflow-y: auto;
+}
+
+.accordion .accordion-item {
+    margin-bottom: 3rem;
+}
+
+.accordion-button {
+    font-size: 24px;
+    background-color:#dee2e6;
+    
+}
+
+/*FORMULARIO*/
+.formulario {
+    background-color: #dee2e6;
+    width: min(50rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    
+}
+
+.formulario .form-control {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    border-radius: 1rem;
+}
+
+.formulario .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
