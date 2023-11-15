@@ -1,7 +1,15 @@
-.cita{
-    background-color: rgb(8, 145, 163);
+.fondo{
+    background-color: white;
+    padding: 2rem 2rem;
 }
 .opiniones-container{
     margin-top: 2rem 2rem;
     padding: 1rem 1rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #ff0000;
+  height: 2rem; /* Cambia #ff0000 por el color que desees */
+  /* Otros estilos que desees aplicar */
 }
