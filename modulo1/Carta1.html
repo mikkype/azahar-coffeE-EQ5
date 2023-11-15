@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/index.js"></script>
+    <script src="../js/appPrincipal.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>CARTA1</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -46,7 +48,7 @@
                 </ul>
             </nav>
         </div>
-    </div>
+        <!---------------------------nav bar secciones de carta----------->
         <div class="contenedor-secciones">
             <div class="globos"><A href="Carta-salados1.html">
                     <h2>Salados</h2>
@@ -61,124 +63,149 @@
                     <h2>Premiados</h2>
                 </A></div>
         </div>
+            <!--------------------------------------navbar2------------------------------------------------->
+        <div class="text-center py-5">
+            <div class="container bg-body-tertiary">
+              <nav class="row justify-content-between align-items-center text-uppercase my-5">
+                <!---->
+                <!--salados-->
+                <a href="carta-salados.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+                  <img src="../img2.0/encabezado-carta/sandwich.png" width="75px" height="75px">
+                  salados</a>
+                <!--dulces-->
+                <a href="carta-dulces.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+                  <img src="../img2.0/encabezado-carta/tarta-de-queso.png" width="75px" height="75px">
+                  dulces</a>
+                <!--bebidas-->
+                <a href="carta-bebidas.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+                  <img src="../img2.0/encabezado-carta/refresco.png" width="75px" height="75px">
+                  bebidas</a>
+                <!--premiados-->
+                <a href="carta-premiados.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+                  <img src="../img2.0/encabezado-carta/medalla.png" width="75px" height="75px">
+                  premiados</a>
+              </nav>
+            </div>
+          </div>
 
-    <!-- CUERPO -->
 
-    <!-- CARRUSEL O SLIDER -->
 
-    <div class="row primera-linea ">
-        <h2>NUESTROS SALADOS</h2>
-    </div>
-    <div class="carta container-fluid ">
+        <!---------------------------------descripcion de la carta dinamica---------------------------------------------->
 
-        <div class="row ">
-            <!-- columnaA -->
-            <div class="columna col-lg-6 col-md-12 text-center">
-                <!-- cabecera titulo -->
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre" class="subrayado "></h3>
-                    <!--imagen y texto  -->
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex   py-3 ">
-                        <div class="col-lg-4  col-md-4">
-                            <img src="img/v1.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-lg-8 col-md-8 ">
-                            <p id="Descripcion" class="text-justify"> </p>
+        <div class="row primera-linea ">
+            <h2>NUESTROS SALADOS</h2>
+        </div>
+        <div class="carta container-fluid ">
+
+            <div class="row ">
+                <!-- columnaA -->
+                <div class="columna col-lg-6 col-md-12 text-center">
+                    <!-- cabecera titulo -->
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre" class="subrayado "></h3>
+                        <!--imagen y texto  -->
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex   py-3 ">
+                            <div class="col-lg-4  col-md-4">
+                                <img src="../img/v1.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8 ">
+                                <p id="Descripcion" class="text-justify"> </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre1" class="subrayado"></h3>
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  py-3">
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre1" class="subrayado"></h3>
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  py-3">
                             <div class="col-lg-4 col-md-4">
-                                <img src="img/v2.jpeg" alt="">
+                                <img src="../img/v2.jpeg" alt="">
                             </div>
                             <div class="cuadro-descripcion col-lg-8 col-md-8">
                                 <p id="Descripcion1" class="text-justify"></p>
                             </div>
                         </div>
-                </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre2" class="subrayado"></h3>
+                    </div>
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre2" class="subrayado"></h3>
 
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
-                        <div class="col-lg-4 col-md-4  ">
-                            <img src="img/v3.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-lg-8 col-md-8">
-                            <p id="Descripcion2" class="text-justify"></p>
-                        </div>
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                            <div class="col-lg-4 col-md-4  ">
+                                <img src="../img/v3.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion2" class="text-justify"></p>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
+                <!-- columna B -->
+                <div class="columna col-lg-6 col-md-12 text-center">
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre3" class="subrayado"></h3>
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                            <div class="col-lg-4 col-md-4  ">
+                                <img src="../img/v4.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion3" class="text-justify"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre4" class="subrayado"></h3>
+
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                            <div class="col-lg-4 col-md-4  ">
+                                <img src="../img/v5.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion4" class="text-justify"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabecera-productoscarta row">
+                        <h3 id="nombre5" class="subrayado"></h3>
+
+                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
+                            <div class="col-lg-4 col-md-4  ">
+                                <img src="../img/v6.jpeg" alt="">
+                            </div>
+                            <div class="cuadro-descripcion col-lg-8 col-md-8">
+                                <p id="Descripcion5" class="text-justify"></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
-            <!-- columna B -->
-            <div class="columna col-lg-6 col-md-12 text-center">
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre3" class="subrayado"></h3>
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
-                        <div class="col-lg-4 col-md-4  ">
-                            <img src="img/v3.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-lg-8 col-md-8">
-                            <p id="Descripcion3" class="text-justify"></p>
-                        </div>
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="container-fluid ">
+            <div class="row foot ">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center ">
+                    <div>
+                        <a href="mapa.html"><img src="/img/marcador-de-posicion.png" alt=""></a>
+                    </div>
+                    <div class="text-md-center">
+                        <p>Somos tu destino ¡encuéntranos !</p>
                     </div>
                 </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre4" class="subrayado"></h3>
-
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
-                        <div class="col-lg-4 col-md-4  ">
-                            <img src="img/v5.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-lg-8 col-md-8">
-                            <p id="Descripcion4" class="text-justify"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cabecera-productoscarta row">
-                    <h3 id="nombre5" class="subrayado"></h3>
-
-                    <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex py-3">
-                        <div class="col-lg-4 col-md-4  ">
-                            <img src="img/v6.jpeg" alt="">
-                        </div>
-                        <div class="cuadro-descripcion col-lg-8 col-md-8">
-                            <p id="Descripcion5" class="text-justify"></p>
-                        </div>
-
-                    </div>
+                <div class="col-lg-6 col-md-12  py-4 text-center">
+                    <h2>Redes sociales</h2>
+                    <a href="#"><img src="/img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="/img/instagram.png" alt="Instagram"></a>
+                    <!-- Agrega más íconos de redes sociales según sea necesario -->
                 </div>
 
-            
             </div>
 
         </div>
-    </div>
 
-    <!-- FOOTER -->
-
-    <div class="container-fluid ">
-        <div class="row foot ">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center ">
-                <div>
-                    <a href="mapa.html"><img src="/img/marcador-de-posicion.png" alt=""></a>
-                </div>
-                <div class="text-md-center">
-                    <p>Somos tu destino ¡encuéntranos !</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12  py-4 text-center">
-                <h2>Redes sociales</h2>
-                <a href="#"><img src="/img/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="/img/instagram.png" alt="Instagram"></a>
-                <!-- Agrega más íconos de redes sociales según sea necesario -->
-            </div>
-
-        </div>
-
-    </div>
-    
 </body>
+
 </html>
