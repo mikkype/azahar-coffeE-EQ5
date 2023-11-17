@@ -1,18 +1,25 @@
 /* Modificacion para la pagina carta */
 .carta{
     background-color: #332726;
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 3rem 3rem 3rem 3rem;
+
 }
 .foto-decripcion{
     height: 18rem;
+    padding: 0;
 }
+
 .cabecera-productoscarta {
     color: #9c6a76;
+    margin-bottom: 2.5rem;
+
 }
 
 .cabecera-productoscarta img {
     width: 16rem;
     height: 14rem;
+    margin-bottom: 1rem;
+
 }
 
 .cabecera-productoscarta h3 {
@@ -21,6 +28,8 @@
 }
 .cuadro-descripcion{
     background-color: #efefef;
+    margin-bottom: 1rem;
+
 }
 .cuadro-descripcion span:nth-child(2) {
     color:#FF0000
@@ -46,6 +55,9 @@
     text-align: start;
     width: 80%;
 
+}
+.columna{
+    padding-right:7rem ;
 }
 
 /* ---------------------------- */

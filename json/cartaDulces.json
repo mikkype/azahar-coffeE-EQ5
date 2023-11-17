@@ -3,24 +3,28 @@
         "id": 4,
         "Nombre": "TARTA DE QUESO",
         "Descripción": "Tostada y cremosa, esta tarta de queso, galleta y flan es siempre una buena elección. Servida fría y apta para cualquier estación, ¿a quién no le gusta una buena tarta de queso?",
-        "Precio": 3.50
+        "Precio": 3.50,
+        "image":"../img/v4.jpeg"
     },
     {
         "id": 2,
         "Nombre": "AZAHAR TASTE",
         "Descripción": "Un bizcocho con el más puro sabor a naranja, con azúcar glass y rodajas de naranja. ",
-        "Precio": 3.00
+        "Precio": 3.00,
+        "image":"../img/v2.jpeg"
     },
     {
         "id": 3,
         "Nombre": "SELVA NEGRA",
         "Descripción": "Una tarta en capas que consta de bizcocho genovés de chocolate embebido en almíbar con Kirsch, relleno y recubierto de crema chantillí y cerezas.",
-        "Precio": 3.80
+        "Precio": 3.80,
+        "image":"../img/v3.jpeg"
     },
     {
         "id": 7,
         "Nombre": "MADE IN UTRERA",
         "Descripción": "Los tradicionales Mostachones de Utrera, son un bizcocho plano y redondo, hecho de harina, azúcar y huevo. Puede parecer simple, pero su sabor es impecable. Ligeros y deliciosos, lo consideramos un desayuno perfecto.",
-        "Precio": 1.30
+        "Precio": 1.30,
+        "image":"../img/v7.jpeg"
     }
 ]

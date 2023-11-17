@@ -3,35 +3,41 @@
         "id": 1,
         "Nombre": "ORANGE COFEE",
         "Descripción": "Un café helado, con naranja, azúcar y crema.",
-        "Precio": 2.20
+        "Precio": 2.20,
+        "image":"../img/v1.jpeg"
     },
     {
         "id": 2,
         "Nombre": "AZAHAR TASTE",
         "Descripción": " Un bizcocho con el más puro sabor a naranja, con azúcarglass y rodajas denaranja. ",
-        "Precio": 3.00
+        "Precio": 3.00,
+        "image":"../img/v2.jpeg"
     },
     {
         "id": 3,
         "Nombre": "SELVA NEGRA",
         "Descripción": "Una tarta en capas que consta de bizcocho genovés de chocolate embebido en almíbar con Kirsch, relleno y recubierto de crema chantillí y cerezas. ",
-        "Precio": 3.80
+        "Precio": 3.80,
+        "image":"../img/v3.jpeg"
     },
     {
         "id": 4,
         "Nombre": "TARTA DE QUESO",
         "Descripción": "Tostada y cremosa, esta tarta de queso, galleta y flan es siempre una buena elección. Servida fría y apta para cualquier estación, ¿a quién no le gusta una buena tarta de queso? ",
-        "Precio": 3.50
+        "Precio": 3.50,
+        "image":"../img/v4.jpeg"
     },
     {
         "Nombre": "SMOOTHIE AZAHAR",
         "Descripción": "Un smoothie hecho con naranja, plátano, pera y nuestro ingrediente secreto no tan secreto: el azahar. Usando un poco de azúcar y leche, conseguimos una bebida refrescante, saludable y deliciosa.",
-        "Precio": 3.30
+        "Precio": 3.30,
+        "image":"../img/v5.jpeg"
     },
     {
         "id": 6,
         "Nombre": "MONTADITO DE LA CASA",
         "Descripción": "Un montaito a elegir entre: Jamón serrano y salmorejo, pringá de la casa, mantecaíto, sobrasada, piripi, capote, carne mechá y lomo.",
-        "Precio": 2.50
+        "Precio": 2.50,
+        "image":"../img/v6.jpeg"
     }
 ]
