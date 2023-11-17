@@ -13,7 +13,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e1cecc;
+    background-color:azure
 }
 html{
     font-size: 62.5%;
@@ -40,7 +40,7 @@ header{
 
     /*FOOTER STYLE*/
     
-    .fot {
+    .foot {
         margin: 2rem 2rem 2rem 2rem;
         padding: 2rem 2rem 2rem 1rem;
         background-color: #dcd2d2; /* Cambia el color de fondo a tu elección */
@@ -48,7 +48,7 @@ header{
         box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);
     }
 
-    .fot img{
+    .foot img{
         width: 5rem;
         height: 5rem;
         padding-left: 0.5rem;
@@ -108,7 +108,7 @@ header{
 
  /* BODY STYLE: */
     .primera-linea{
-        background-color: #935a68;
+        background-color: azure;
         margin: 2REM 0 2rem 0;
         text-align: center;
         width: 70%;
@@ -123,10 +123,10 @@ header{
         display: flex;
     }
     .descripcion{
-        background-color: #966458;
+        background-color:#ccbf0a;
     }
     .separador {
         height: 1rem;
-        background: #f5e4e2;
+        background: #05e055;
     }
     
