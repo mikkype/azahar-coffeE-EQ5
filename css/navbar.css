@@ -8,9 +8,14 @@
     width: 95px;
     height: 90px;
 }
+
 /*navlog*/
 
-.align{
+a .nav-img{
     
-    
+    width: 48px;
+    height: 48px;
+}
+.nav-link{
+    font-size: 2rem;
 }
