@@ -4,5 +4,23 @@ main{
 }
 
 
+/*paleta de colore*/
 
+:root {
+	--colorprimero: #EBE9F2;
+	--colorsegundo: #f2b705;
+	--colortercero: #f29f05;
+	--colorcuarto: #cc660d;
+	--colorquinto: #c08752;
 
+	--colorsexto: #FAF4EB;
+	--colorsiete: #DBCFB2;
+	--colorocho: #aa8f66;
+	--colornueve: #FFEEDB;
+
+}
+
+body{
+	background-color: var(--colorsexto);
+}
+	
