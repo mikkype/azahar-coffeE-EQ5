@@ -1,3 +1,4 @@
+/*carousel 1*/
 .titulacion{
     position: relative;
     text-align: center;
@@ -11,11 +12,26 @@
     color: white;
     padding: 5px;
     border-radius: 0.5rem;
-    transform: translateY(-120%); /* Ajusta la posición vertical con transform */
+    transform: translateY(-120%);
     z-index: 1;
   }
   .carousel img{
       width: 100%;
       height: 55rem;
+      
   }
+
+  /*carousel 2*/
+  /*carrusel2*/
+
+.c-item {
+    
+  height: 600px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
   

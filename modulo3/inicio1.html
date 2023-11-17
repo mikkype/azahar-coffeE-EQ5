@@ -28,84 +28,92 @@
         </header>
     </div>
 
-<!---------------------------------------------------------navbog-------------------------------------------------->
+    <!---------------------------------------------------------nav1-------------------------------------------------->
 
-    <div class="container-fluid align text-center">
+
+
+    <div class="container-fluid">
         <div class="container">
-            <nav class="row text-uppercase">
-                <!---->
-                <!--carta-->
-                <a href="../modulo1/Carta1.html" class="col-12 col-md col-lg text-decoration-none text-dark ">
-                    <img src="../img2.0/portada/carta-de-vinos.png">
-                    carta</a>
-                <!--aboutus-->
+            <nav class="row navbar navbar-expand-sm justify-content-between">
+                <ul class="navbar-nav">
+                    <!---->
 
-                <a href="../modulo3/aboutUs1.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-                    <img src="../img2.0/portada/comunidad.png">
-                    about us</a>
-                <!--faq-->
+                    <!--carta-->
+                    <li class="nav-item">
+                        <a href="../modulo1/Carta1.html"
+                            class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                            <img src="../img2.0/portada/carta-de-vinos.png">
+                            carta
+                        </a>
+                    </li>
 
-                <a href="../modulo2/faq1.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-                    <img src="../img2.0/portada/globos-de-texto.png">
-                    FAQ</a>
-                <!--regreso a inicio-->
-                <a href="../modulo3/inicio1.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-                    <img src="../img2.0/portada/casa.png">
-                    inicio</a>
+                    <!--aboutus-->
 
+                    <li class="nav-item">
+                        <a href="../modulo3/aboutUs1.html"
+                            class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                            <img src="../img2.0/portada/comunidad.png">
+                            about us
+                        </a>
+                    </li>
+
+                    <!--faq-->
+
+                    <li class="nav-item">
+                        <a href="../modulo2/faq1.html"
+                            class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                            <img src="../img2.0/portada/globos-de-texto.png">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <!--regreso a inicio-->
+
+                    <li class="nav-item">
+                        <a href="../modulo3/inicio1.html"
+                            class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                            <img src="../img2.0/portada/casa.png">
+                            inicio
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
+
+
     </div>
 
-    <!-----------------------------------------------------CUERPO -------------------------------------------->
 
-    <!----------------------------------------------- CARRUSEL------------------------------------------------->
-    <div class="container-fluid inicio-carrusel">
-        <section class="container">
-            <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2500">
-                <div class="carousel-inner">
+    <!-----------------------------------------------------navbar 2 -------------------------------------------->
 
-                    <div class="carousel-item active">
-                        <img src="../img2.0/carrusel/c3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-none d-md-block">
-                            <div class="titulacion">
-                                <h1>Dulzura</h1>
-                            </div>
 
-                        </div>
-                    </div>
+    <!----------------------------------------------- CARRUSEL-1------------------------------------------------->
 
-                    <div class="carousel-item">
-                        <img src="../img2.0/carrusel/c2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-none d-md-block ">
-                            <div class="titulacion">
-                                <h1>Sabor</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="../img2.0/carrusel/c1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-none d-md-block">
-                            <div class="titulacion">
-                                <h1>Matices</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
-            </div>
-        </section>
-    </div>
     <!----carrusel 2----->
-    
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="../img2.0/carrusel/c3.jpg" class="d-block w-100 c-img" alt="1">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="../img2.0/carrusel/c2.jpg" class="d-block w-100 c-img" alt="2">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="../img2.0/carrusel/c1.jpg" class="d-block w-100 c-img" alt="3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
 
     <!-------------------------------------------------hero------------------------------------------------------------>
     <div class="container-fluid">
