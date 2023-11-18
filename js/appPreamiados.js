@@ -7,18 +7,23 @@ function init() {
 
             // Insertar datos del JSON en HTML
             document.getElementById("nombre").textContent = primerItem.Nombre;
+            document.getElementById("image").src = primerItem.image;
             document.getElementById("Descripcion").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + primerItem.Descripción ;
             document.getElementById("precio").textContent = primerItem.Precio + '€';
             const segundoItem = data[1];
             document.getElementById("nombre1").textContent = segundoItem.Nombre;
+            document.getElementById("image1").src = segundoItem.image;
+
             document.getElementById("Descripcion1").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + segundoItem.Descripción ;
             document.getElementById("precio1").textContent = segundoItem.Precio + '€';
             const tercerItem = data[2];
             document.getElementById("nombre2").textContent = tercerItem.Nombre;
+            document.getElementById("image2").src = tercerItem.image;
             document.getElementById("Descripcion2").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + tercerItem.Descripción ;
             document.getElementById("precio2").textContent = tercerItem.Precio + '€';
             const cuartoItem = data[3];
             document.getElementById("nombre3").textContent = cuartoItem.Nombre;
+            document.getElementById("image3").src = cuartoItem.image;
             document.getElementById("Descripcion3").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + cuartoItem.Descripción ;
             document.getElementById("precio3").textContent = cuartoItem.Precio + '€';
         })
