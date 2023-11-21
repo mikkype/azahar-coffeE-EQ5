@@ -15,20 +15,52 @@
     width: 48px;
     height: 48px;
 }
+/*FOOTER*/
 .mf-top{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
+/*CARRUSEL DE INICIO*/
 .mc-top{
-    margin-top: 3rem;
+    padding-top: 1rem;
 }
-
+/*barra navegacion INICIO*/
 .nv-top{
-    margin-top: 3rem;
+
+    background-color: var(--pastel6);
     
 }
+/*navbar de carta seleccionador*/
 .dc-nav{
-    padding: 1rem 1rem;
-    background-color: #b5d17c;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: var(--pastel3);
+   
+}
+/*cabecera nav logo*/
+.navb{
+    background-color: var(--pastel8);
 }
 
+/*aboutus*/
+
+
+/*boton menu despegable*/
+.dropdown-toggle{
+    display: inline;
+
+}
+.dropdown-menu{
+    background-color:var(--pastel6)
+}
+.dropdown-item{
+    font-size: 2rem;
+    
+}
+.dropdown-menu :hover{
+    background-color: var(--pastel8)
+}
+.dd-top{
+    padding-top: 2rem;
+    background-color: var(--pastel3);
+}
 
