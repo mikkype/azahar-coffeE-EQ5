@@ -26,25 +26,35 @@
 /*barra navegacion INICIO*/
 .nv-top{
 
-    background-color: var(--colorsexto);
+    background-color: var(--pastel6);
     
 }
 /*navbar de carta seleccionador*/
 .dc-nav{
     padding-bottom: 1rem;
     padding-top: 1rem;
-    background-color: var(--colorprimero);
+    background-color: var(--pastel3);
    
 }
-/*cabecera*/
+/*cabecera logo*/
 .navb{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    background-color: var(--colornueve);
+    
+    background-color: var(--pastel8);
 }
 /*aboutus*/
 .abs-img{
     
+}
+
+/*boton menu despegable*/
+.navbar{
+    background-color:var(--pastel1);
+}
+
+.navbar a:hover {
+    background-color: var(--pastel8);
+    text-decoration: none;
+
 }
 
 
