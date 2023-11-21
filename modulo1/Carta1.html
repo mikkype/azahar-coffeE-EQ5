@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../js/appPrincipal.js"></script>
-    <script src="../js/appBebidas.js"></script>
-    <script src="../js/appSalado.js"></script>
-    <script src="../js/appDulce.js"></script>
-    <script src="../js/appPreamiados.js"></script>
+    <!--     <script src="../js/appBebidas.js"></script>
+ -->
+    <!--     <script src="../js/appPreamiados.js"></script>    
+ -->
+    
+
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">    
+    <script src="../js/appindice.js"></script>
     <title>CARTA1</title>
 </head>
 
@@ -94,7 +96,7 @@
     <div class="row primera-linea ">
         <h2>Carta Principal</h2>
     </div>
-    <div class="carta container-fluid ">
+    <div class="carta container-fluid    ">
 
         <div class="row base-carta justify-content-between">
             <div class=" foto-menu">
@@ -107,30 +109,21 @@
             <!-- columnaA -->
             <div class="columna col-lg-5 col-md-12 text-center">
                 <!-- contenedor del producto (2 Filas)-->
-                <div class="cabecera-indice ">
-                    <!--Fila cabecera titulo -->                        
-                    <h1 class="titulo-indice">Salados</h1>
-                    <div class="row d-flex">
-                        <h2 id="nombres1" class="subrayado2 "></h2>
-                        <ol>
-                            <img id="images1"></img>
-                            <li id="nombres1"></li>
-                            <li id="precios1"></li>
-                        </ol>
-                    </div>
+                <div class="cabecera-indice pagina-parcialS">
+                    <!--Fila cabecera titulo -->
+                    <h1 class="titulo-indice subrayado2">Salados</h1>
+                    <ul id="listaSalados">
+
+                    </ul>
                 </div>
                 <div class="cabecera-indice ">
-                    <!--Fila cabecera titulo -->                        
-                    <h1 class="titulo-indice">Dulces</h1>
-                    <div class="row  d-flex">
-                        <ol>
-                            <img id="imaged1"></img>
-                            <li id="nombred1"></li>
-                            <li id="preciod1"></li>
-                        </ol>
-                    </div>
+                    <!--Fila cabecera titulo -->
+                    <h1 class="titulo-indice subrayado2">Dulces</h1>
+                    <ul id="listaDulces">
+
+                    </ul>
                 </div>
-                
+
             </div>
             <div class="container-linea col-1">
                 <div class="vertical-line"></div>
@@ -138,28 +131,18 @@
             <!-- columna B -->
             <div class="columna1 col-lg-5 col-md-12 text-center">
                 <div class="cabecera-indice ">
-                    <h1 class="titulo-indice">Premiados</h1>
+                    <h1 class="titulo-indice subrayado2">Premiados</h1>
                     <!--Fila cabecera titulo -->
-                    <div class="row   ">
-                        <ol>
-                            <img id="imagep1"></img>
-                            <li id="nombrep1"></li>
-                            <li id="preciop1"></li>
+                    <ul id="listaPremiados">
 
-                        </ol>
-                    </div>
+                    </ul>
                 </div>
                 <div class="cabecera-indice ">
-                    <h1 class="titulo-indice">Bebidas</h1>
+                    <h1 class="titulo-indice subrayado2">Bebidas</h1>
                     <!--Fila cabecera titulo -->
-                    <div class="row">
-                        <ol>
-                            <img id="imageb1"></img>
-                            <li id="nombreb1"></li>
-                            <li id="preciob1"></li>
+                    <ul id="listaBebidas">
 
-                        </ol>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </div>
