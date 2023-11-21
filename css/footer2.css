@@ -45,5 +45,22 @@
 
 
 /*boton menu despegable*/
+.dropdown-toggle{
+    display: inline;
 
+}
+.dropdown-menu{
+    background-color:var(--pastel6)
+}
+.dropdown-item{
+    font-size: 2rem;
+    
+}
+.dropdown-menu :hover{
+    background-color: var(--pastel8)
+}
+.dd-top{
+    padding-top: 2rem;
+    background-color: var(--pastel3);
+}
 
