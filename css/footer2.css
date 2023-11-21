@@ -36,22 +36,14 @@
     background-color: var(--pastel3);
    
 }
-/*cabecera logo*/
+/*cabecera nav logo*/
 .navb{
-    
     background-color: var(--pastel8);
 }
+
 /*aboutus*/
 
 
 /*boton menu despegable*/
-.navbar{
-    background-color:var(--pastel1);
-}
-
-.navbar a:hover {
-    background-color: var(--pastel8);
-    
-}
 
 
