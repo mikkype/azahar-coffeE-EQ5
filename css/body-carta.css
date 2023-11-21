@@ -37,9 +37,7 @@
 .base-carta2{
     padding: 2rem 2rem;
 }
-.foto-menu{
-    
-}
+
 .foto-menu h1{
     color: white;
     font-size: 14vw;
@@ -70,18 +68,20 @@
 
 }
 /* Indice carta principal */
-.cabecera-indice{
 
-}
-.cabecera-indice img{
-    width: 5rem;
-    height: 5rem;
-}
+
 .titulo-indice{
     color: white;
     font-size: 3rem;
 }
-ol{
+ul{
+    margin-top: 4rem;
+
+}
+li{
+    color: white;
+}
+ol span{
     color: white;
 }
 /* El contenedor de cada producto en si con las dos filas */
@@ -146,8 +146,20 @@ ol{
         height: 0.4rem; /* Grosor del borde */
         background-color: #9c6a76; /* Color del borde */
     }
-
-
+    .subrayado2 {
+        position: relative;
+        color: white;
+    }
+    .subrayado2::after {
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        left: 30%;
+         /* Centramos el borde horizontalmente en la mitad del elemento */
+        width: 20%; /* Cubre la mitad del elemento */
+        height: 0.4rem; /* Grosor del borde */
+        background-color: white; /* Color del borde */
+    }
 
 
 /* ---------------------------- */
