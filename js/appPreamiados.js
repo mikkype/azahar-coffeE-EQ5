@@ -8,10 +8,8 @@ function init() {
                 var nombreElement = document.getElementById("nombrep" + (index + 1));
                 var imagenElement = document.getElementById("imagep" + (index + 1));
                 var descripcionElement = document.getElementById("Descripcionp" + (index + 1));
-                var precio = document.getElementById("preciop" + (index + 1));
 
                 // Asignar la información del producto a los elementos HTML
-                precio.innerText =producto.Precio
                 nombreElement.innerText = producto.Nombre;
                 imagenElement.src = producto.image;
                 imagenElement.alt = producto.Nombre + " Image";
