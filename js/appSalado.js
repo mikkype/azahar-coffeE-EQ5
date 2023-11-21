@@ -1,32 +1,27 @@
+document.addEventListener("DOMContentLoaded", init);
 function init() {
     fetch("/json/cartaSalados.json")
         .then(response => response.json())
         .then(data => {
             // Obtener el primer elemento del JSON
-            const primerItem = data[0];
+            data.forEach(function (producto, index) {
+                var nombreElement = document.getElementById("nombres" + (index + 1));
+                var imagenElement = document.getElementById("images" + (index + 1));
+                var descripcionElement = document.getElementById("Descripcions" + (index + 1));
+                var precio = document.getElementById("precios" + (index + 1));
 
-            // Insertar datos del JSON en HTML
-            document.getElementById("nombre").textContent = primerItem.Nombre;
-            document.getElementById("image").src = primerItem.image;
-            document.getElementById("Descripcion").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + primerItem.Descripción ;
-            document.getElementById("precio").textContent = primerItem.Precio + '€';
-            const segundoItem = data[1];
-            document.getElementById("nombre1").textContent = segundoItem.Nombre;
-            document.getElementById("image1").src = segundoItem.image;
-            document.getElementById("Descripcion1").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + segundoItem.Descripción ;
-            document.getElementById("precio1").textContent = segundoItem.Precio + '€';
-            const tercerItem = data[2];
-            document.getElementById("nombre2").textContent = tercerItem.Nombre;
-            document.getElementById("image2").src = tercerItem.image;
-            document.getElementById("Descripcion2").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + tercerItem.Descripción ;
-            document.getElementById("precio2").textContent = tercerItem.Precio + '€';
-            const cuartoItem = data[3];
-            document.getElementById("nombre3").textContent = cuartoItem.Nombre;
-            document.getElementById("image3").src = cuartoItem.image;
-            document.getElementById("Descripcion3").innerHTML = '<span class="font-weight-bold">Descripción:</span> ' + cuartoItem.Descripción ;
-            document.getElementById("precio3").textContent = cuartoItem.Precio + '€';
+                // Asignar la información del producto a los elementos HTML
+                precio.innerText =producto.Precio
+                nombreElement.innerText = producto.Nombre;
+                imagenElement.src = producto.image;
+                imagenElement.alt = producto.Nombre + " Image";
+
+                var contenido = producto.Descripción + ' ';
+                contenido += '<span class="precio">Precio: ' + producto.Precio.toFixed(2) + ' €</span>';
+            
+                // Insertar el contenido en el elemento p
+                descripcionElement.innerHTML = contenido;
+            });
         })
         .catch(error => console.error("Error al cargar el JSON: " + error));
 }
-
-window.addEventListener("load", init);
