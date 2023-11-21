@@ -1,12 +1,14 @@
 .heading{
     background-color: black;
 }
+
 .fondo2{
     position: relative;
     display: flex;
     justify-content: center;
     color: #ffffff;
 }
+
 .fondo2 img{
     width: 100%;
     height: 500px;
