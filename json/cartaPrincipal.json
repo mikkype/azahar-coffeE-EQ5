@@ -1,5 +1,5 @@
-[
-    {
+{
+    "principal":[{
         "id": 1,
         "Nombre": "ORANGE COFEE",
         "Descripción": "Un café helado, con naranja, azúcar y crema.",
@@ -41,3 +41,4 @@
         "image":"../img/v6.jpeg"
     }
 ]
+}

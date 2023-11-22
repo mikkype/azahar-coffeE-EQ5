@@ -1,4 +1,5 @@
-[
+{
+    "premiados":[
     {
         "id": 2,
         "Nombre": "AZAHAR TASTE",
@@ -28,3 +29,4 @@
         "image":"../img/v10.jpeg"
     }
 ]
+}
