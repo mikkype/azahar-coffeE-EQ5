@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 .rating{
     transform: rotateY(180deg);
@@ -45,3 +46,13 @@ label:hover ~ label::after,
 input:checked ~ label::after{
     opacity: 1;
 }
+.elemento-emoji {
+    content: "\1F603";
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+.elemento-emoji::before {
+    content: "\1F603";
+    
+  }

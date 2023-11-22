@@ -26,14 +26,15 @@
         }
       }
 /*La carata donde estan todos los productos */
-.carta{
-    background-color: #624946;
-    padding: 3rem 3rem 3rem 3rem;
-}
+
 .base-carta{
     background-color: #0D1C23;
-    padding: 2rem 2rem;    
+    padding: 4rem 2rem 4rem 2rem;    
+    
 }
+/* .justify-content-between{
+    justify-content: center !;
+} */
 .base-carta2{
     padding: 2rem 2rem;
 }
@@ -62,27 +63,49 @@
     }
 }
 /* Columnas */
-.columna{
-}
-.columna1{
 
-}
 /* Indice carta principal */
-
+.cabecera-indice{
+    height: 50%;
+    padding: 1rem;
+}
 
 .titulo-indice{
     color: white;
     font-size: 3rem;
 }
-ul{
-    margin-top: 4rem;
+.listas{
+    margin-top: 1rem;
+    text-align: left;
+    color: white;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    flex-grow: 1;
+    width: 80%;
 
 }
-li{
+.listas2{
     color: white;
+    flex-grow: 1;
+    width: 20%;
+
 }
-ol span{
-    color: white;
+
+#box-indice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera-indice img{
+    width: 15rem;
+    height: 15rem;
+    border: 0.1rem white solid;
+}
+
+.columna,.columna1{
+    padding: 1rem;
 }
 /* El contenedor de cada producto en si con las dos filas */
 .cabecera-productoscarta {
@@ -113,6 +136,10 @@ ol span{
     padding: 0;
 }
 .cuadro-descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
     color: white;
     border: 0.2rem solid;
     text-align: justify;
@@ -124,13 +151,7 @@ ol span{
     margin-bottom: 1rem;
 
 }
-.precio {
-    position: absolute;
-    /* Otros estilos que desees aplicar al precio */
-    bottom: 0; /* Lo coloca en la parte inferior */
-    right: 0.5rem; /* Lo alinea a la derecha */
-    font-style: italic;
-}
+
 
 /* CSS para poner la rayita por debajo a las palabras */
 .subrayado {
@@ -153,10 +174,9 @@ ol span{
     .subrayado2::after {
         content: "";
         position: absolute;
-        bottom: -1rem;
-        left: 30%;
-         /* Centramos el borde horizontalmente en la mitad del elemento */
-        width: 20%; /* Cubre la mitad del elemento */
+        bottom: 0;
+        left: -1rem; /* Centramos el borde horizontalmente en la mitad del elemento */
+        width: 15%; /* Cubre la mitad del elemento */
         height: 0.4rem; /* Grosor del borde */
         background-color: white; /* Color del borde */
     }
