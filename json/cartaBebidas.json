@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-    "bebidas":[
-         {   
-=======
     "bebidas": [
         {
->>>>>>> 1cf1c4d5697a4f1054172af2a4bf1fe4c7c811ac
             "id": 13,
             "Nombre": "CAFÉS",
             "Descripción": "Tanto tradicionales como cafés más originales y novedosos (Orange Coffee, por ejemplo, una recomendación que damos siempre), ofrecemos gran variedad para satisfacer a todo paladar.",
@@ -34,10 +29,4 @@
             "image": "../img/v14.jpeg"
         }
     ]
-<<<<<<< HEAD
 }
-      
-    
-=======
-}
->>>>>>> 1cf1c4d5697a4f1054172af2a4bf1fe4c7c811ac
