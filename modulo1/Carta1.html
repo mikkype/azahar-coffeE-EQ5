@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../js/appPrincipal.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/appindice.js"></script>
     <title>CARTA1</title>
 </head>
 
@@ -28,63 +28,61 @@
         </header>
     </div>
 
-    <!---------------------------------------------------------nav1-------------------------------------------------->
+    <!-----------------------------------------navbar bootstrap dropdown--------------------------->
+    <div class="container-fluid dd-top">
+
+        <nav class="row text-uppercase">
+
+            <ul class="nav nav-pills nav-justified align-items-center ">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button"
+                        >
+                        <img src="../img2.0/portada/carta-de-vinos.png" class="nv-img">
+                        carta</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../modulo1/Carta1.html">Carta</a></li>
+                        <li><a class="dropdown-item" href="../modulo3/aboutUs1.html">about us</a></li>
+                        <li><a class="dropdown-item" href="../modulo2/faq1.html">faq</a></li>
+                        <li><a class="dropdown-item" href="../modulo3/inicio1.html">inicio</a></li>
+                    </ul>
+                </li>
 
 
 
-
-    <nav class="nav nav-pills nav-justified text-uppercase nv-top">
-
-        <!--carta-->
-        <a href="../modulo1/Carta1.html" class="text-decoration-none text-dark nav-link">
-            <img src="../img2.0/portada/carta-de-vinos.png" class="nav-img">
-            carta
-        </a>
-        <!--aboutus-->
-        <a href="../modulo3/aboutUs1.html" class="text-decoration-none text-dark nav-link">
-            <img src="../img2.0/portada/comunidad.png" class="nav-img">
-            about us
-        </a>
-        <!--faq-->
-        <a href="../modulo2/faq1.html" class="text-decoration-none text-dark nav-link">
-            <img src="../img2.0/portada/globos-de-texto.png" class="nav-img">
-            FAQ
-        </a>
-        <!--regreso a inicio-->
-        <a href="../modulo3/inicio1.html" class="text-decoration-none text-dark nav-link">
-            <img src="../img2.0/portada/casa.png" class="nav-img">
-            inicio
-        </a>
-    </nav>
-
-    <!--------------------------------------navegacion de carta------------------------------------------------->
-    <div class="container-fluid text-center nv-top dc-nav">
-        
-            <nav class="row justify-content-between text-uppercase">
-
-                <!--carta-->
-                <a href="../modulo1/Carta-salados1.html" class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                <!--salados-->
+                <a href="../modulo1/Carta-salados1.html"
+                    class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
                     <img src="../img2.0/encabezado-carta/sandwich.png" class="nv-img">
                     salados
                 </a>
-                <!--aboutus-->
-                <a href="../modulo1/Carta-dulces1.html" class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                <!--dulces-->
+                <a href="../modulo1/Carta-dulces1.html"
+                    class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
                     <img src="../img2.0/encabezado-carta/tarta-de-queso.png" class="nv-img">
                     dulces
                 </a>
-                <!--faq-->
-                <a href="../modulo1/Carta-bebidas1.html" class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                <!--bebidas-->
+                <a href="../modulo1/Carta-bebidas1.html"
+                    class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
                     <img src="../img2.0/encabezado-carta/cafe.png" class="nv-img">
                     bebidas
                 </a>
-                <!--regreso a inicio-->
-                <a href="../modulo1/Carta-premiados1.html" class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
+                <!--premiados-->
+                <a href="../modulo1/Carta-premiados1.html"
+                    class="col-12 col-md col-lg text-decoration-none text-dark nav-link">
                     <img src="../img2.0/encabezado-carta/medalla.png" class="nv-img">
                     premiados
                 </a>
-            </nav>
-        
+            </ul>
+        </nav>
+
     </div>
+
+    <!----------------------------------------------------------------------------drowdown---------------->
+
+
+
     <!--------------------------------------------------descricipcion 2--------------------------->
 
 
@@ -92,137 +90,73 @@
     <!---------------------------------descripcion de la carta dinamica---------------------------------------------->
 
     <div class="row primera-linea ">
-        <h2>NUESTROS SALADOS</h2>
+        <h2>Carta Principal</h2>
     </div>
-    <div class="carta container-fluid ">
+    <div class="carta container-fluid    ">
 
-        <div class="row justify-content-between">
-            <!-- columnaA -->
-            <div class="columna col-lg-5 col-md-12 text-center">
+        <div class="row base-carta justify-content-between">
+            <div class=" foto-menu">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+                    rel="stylesheet">
+                <h1>Menú</h1>
+            </div>
+            <!-- columnaA --> 
+            <div class="columna col-lg-5 col-md-12 ">
                 <!-- contenedor del producto (2 Filas)-->
-                <div class="cabecera-productoscarta ">
-                    <!--Fila cabecera titulo -->
-                    <div class="row  justify-content-center justify-content-sm-start ">
-                        <h3 id="nombre" class="subrayado col-sm-4 col-7 "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex ">
-                            <div class="col-lg-4  col-md-4">
-                                <img id="image"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex d-flex">
-                                <p id="Descripcion" class="text-justify col-11"> </p>
-                                <p id="precio" class="align-self-end col-1  "></p>
-                            </div>
+                <div class="cabecera-indice d-md-flex  align-items-center">
+                    <div class="box-tit-list w-lg- w-100">
+                        <h1 class="titulo-indice subrayado2">Salados</h1>
+                        <div id="box-indice">
+                            <ul id="listaSalados1" ></ul>
+                            <ul id="listaSalados2" ></ul>
                         </div>
                     </div>
+                     <img src="/img2.0/salados/s3.jpeg" alt="" >
                 </div>
-                <div class="cabecera-productoscarta">
-                    <!--Fila cabecera titulo -->
-                    <div class="row justify-content-center justify-content-sm-start">
-                        <h3 id="nombre1" class="subrayado col-sm-4 col-7 "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex  ">
-                            <div class="col-lg-4 col-md-4">
-                                <img id="image1"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex">
-                                <p id="Descripcion1" class="text-justify col-11"></p>
-                                <p id="precio1" class="align-self-end col-1"></p>
-
-                            </div>
+                <div class="cabecera-indice d-md-flex  align-items-center">
+                    <div class="box-tit-list w-lg-75 w-100">
+                        <h1 class="titulo-indice subrayado2">Dulces</h1>
+                        <div id="box-indice">
+                            <ul id="listaDulces1"></ul>
+                            <ul id="listaDulces2"></ul>
                         </div>
                     </div>
-                </div>
-                <div class="cabecera-productoscarta">
-                    <!--Fila cabecera titulo -->
-                    <div class="row justify-content-center justify-content-sm-start">
-                        <h3 id="nombre2" class="subrayado col-sm-4 col-7 "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
 
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex ">
-                            <div class="col-lg-4 col-md-4  ">
-                                <img id="image2"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex">
-                                <p id="Descripcion2" class="text-justify col-11"></p>
-                                <p id="precio2" class="align-self-end col-1"></p>
-
-                            </div>
-                        </div>
-                    </div>
+                    <img src="/img2.0/dulces/d3.jpeg" alt="">
                 </div>
+            </div>
+            <div class="container-linea col-2">
+                <div class="vertical-line"></div>
             </div>
             <!-- columna B -->
-            <div class="columna1 col-lg-5 col-md-12 text-center">
-                <div class="cabecera-productoscarta">
-                    <!--Fila cabecera titulo -->
-                    <div class="row justify-content-center justify-content-sm-start" >
-                        <h3 id="nombre3" class="subrayado col-sm-4 col-7 "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex ">
-                            <div class="col-lg-4 col-md-4  ">
-                                <img id="image3"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex">
-                                <p id="Descripcion3" class="text-justify col-11"></p>
-                                <p id="precio3" class="align-self-end col-1"></p>
-
-                            </div>
+            <div class="columna1 col-lg-5 col-md-12 ">
+                <div class="cabecera-indice d-md-flex  align-items-center">
+                    <div class="box-tit-list w-lg-75 w-100">
+                        <h1 class="titulo-indice subrayado2">Premiados</h1>
+                        <!--Fila cabecera titulo -->
+                        <div id="box-indice" >
+                            <ul id="listaPremiados1"></ul>
+                            <ul id="listaPremiados2"></ul>
                         </div>
                     </div>
+                    <img src="/img2.0/premiados/p3.jpeg" alt="" >
+
                 </div>
-                <div class="cabecera-productoscarta">
-                    <!--Fila cabecera titulo -->
-                    <div class="row justify-content-center justify-content-sm-start">
-                        <h3 id="nombre4" class="subrayado col-sm-4 col-7 "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
-
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex ">
-                            <div class="col-lg-4 col-md-4  ">
-                                <img id="image4"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex">
-                                <p id="Descripcion4" class="text-justify col-11"></p>
-                                <p id="precio4" class="align-self-end col-1"></p>
-
-                            </div>
+                <div class="cabecera-indice d-md-flex  align-items-center">
+                    <div class="box-tit-list w-lg-75 w-100">
+                        <h1 class="titulo-indice subrayado2">Bebidas</h1>
+                        <!--Fila cabecera titulo -->
+                        <div id="box-indice">
+                            <ul id="listaBebidas1"></ul>
+                            <ul id="listaBebidas2"></ul>
                         </div>
                     </div>
+
+                    <img src="/img2.0/bebidas/b2.jpeg" alt="">
                 </div>
-                <div class="cabecera-productoscarta">
-                    <!--Fila cabecera titulo -->
-                    <div class="row justify-content-center justify-content-sm-start">
-                        <h3 id="nombre5" class="subrayado col-sm-4 col-7  "></h3>
-                    </div>
-                    <!--Fila imagen y texto  -->
-                    <div class="row">
-
-                        <div class="foto-descripcion col-lg-12 col-md-12 d-lg-flex d-md-flex ">
-                            <div class="col-lg-4 col-md-4  ">
-                                <img id="image5"></img>
-                            </div>
-                            <div class="cuadro-descripcion col-lg-8 col-md-8 d-flex">
-                                <p id="Descripcion5" class="text-justify col-11"></p>
-                                <p id="precio5" class="align-self-end col-1"></p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-
         </div>
     </div>
 

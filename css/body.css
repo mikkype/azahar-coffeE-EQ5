@@ -1,8 +1,39 @@
 
-main{
-	margin: 0 5rem 0 8rem;
+html{
+	font-size: 62.5%;
+	}
+	body{
+	font-size: 16px;;
+	}
+	
+
+/*paleta de colore*/
+
+:root {
+	--colorprimero: #EBE9F2;
+	--colorsegundo: #f2b705;
+	--colortercero: #f29f05;
+	--colorcuarto: #cc660d;
+	--colorquinto: #c08752;
+
+	--colorsexto: #FAF4EB;
+	--colorsiete: #DBCFB2;
+	--colorocho: #aa8f66;
+	--colornueve: #FFEEDB;
+	--colordiez: #414141;
+	--pastel1: #f7cac9;
+	--pastel2: #f8edeb;
+	--pastel3 : #ffe5b4;
+	--pastel4 : #c5e0dc;
+	--pastel5 : #a2c8cc;
+	--pastel6 : #fcfcda;
+	--pastel7: #f6d1de;
+	--pastel8: #ecd6c0;
+
+
 }
 
-
-
-
+body{
+	background-color: var(--pastel6);
+}
+	

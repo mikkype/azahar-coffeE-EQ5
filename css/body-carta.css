@@ -9,23 +9,104 @@
 }
     .primera-linea h2{
         align-self: center;
-        margin-left: 8rem;
+        margin-left: 10%;
+        transition: transform 6s;
+    animation-duration: 3s ;
+    animation-name: slidein ;
     }
-
+    @keyframes slidein {
+        from {
+          margin-left: -20%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 10%;
+          width: 300%;
+        }
+      }
 /*La carata donde estan todos los productos */
-.carta{
-    background-color: #332726;
-    padding: 3rem 5rem 3rem 5rem;
 
+.base-carta{
+    background-color: #0D1C23;
+    padding: 4rem 2rem 4rem 2rem;    
+    
+}
+/* .justify-content-between{
+    justify-content: center !;
+} */
+.base-carta2{
+    padding: 2rem 2rem;
 }
 
+.foto-menu h1{
+    color: white;
+    font-size: 14vw;
+    font-family: '';
+    text-align: center;
+
+}
+.container-linea{
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    /* Ajusta el tamaño del contenedor según lo necesites */
+}
+.vertical-line {
+    border-left: 1px solid white; /* Puedes cambiar el color y el grosor de la línea */
+    height: 80%; /* Altura de la línea */
+    justify-content: center;
+  }
+  @media (max-width: 1024px) {
+    .container-linea {
+        display: none; /* Oculta el contenedor en dispositivos más pequeños que un iPad */
+    }
+}
 /* Columnas */
-.columna{
+
+/* Indice carta principal */
+.cabecera-indice{
+    height: 50%;
+    padding: 1rem;
 }
-.columna1{
+
+.titulo-indice{
+    color: white;
+    font-size: 3rem;
+}
+.listas{
+    margin-top: 1rem;
+    text-align: left;
+    color: white;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    flex-grow: 1;
+    width: 80%;
+
+}
+.listas2{
+    color: white;
+    flex-grow: 1;
+    width: 20%;
 
 }
 
+#box-indice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera-indice img{
+    width: 15rem;
+    height: 15rem;
+    border: 0.1rem white solid;
+}
+
+.columna,.columna1{
+    padding: 1rem;
+}
 /* El contenedor de cada producto en si con las dos filas */
 .cabecera-productoscarta {
     color: #9c6a76;
@@ -55,12 +136,22 @@
     padding: 0;
 }
 .cuadro-descripcion{
-    background-color: #efefef;
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    color: white;
+    border: 0.2rem solid;
+    text-align: justify;
+    font-weight: 100;
+    position: relative; /* Para usar el posicionamiento relativo */
+    font-family: 'italic';
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 1rem;
 
 }
+
 
 /* CSS para poner la rayita por debajo a las palabras */
 .subrayado {
@@ -76,8 +167,19 @@
         height: 0.4rem; /* Grosor del borde */
         background-color: #9c6a76; /* Color del borde */
     }
-
-
+    .subrayado2 {
+        position: relative;
+        color: white;
+    }
+    .subrayado2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -1rem; /* Centramos el borde horizontalmente en la mitad del elemento */
+        width: 15%; /* Cubre la mitad del elemento */
+        height: 0.4rem; /* Grosor del borde */
+        background-color: white; /* Color del borde */
+    }
 
 
 /* ---------------------------- */

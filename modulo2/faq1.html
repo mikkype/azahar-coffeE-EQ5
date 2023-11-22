@@ -66,6 +66,7 @@
   
   <main id="faq" class="py-md-5">
     <h1 class="my-5 text-center text-uppercase">faq</h1>
+    <p class="text-center text-uppercase fw-semibold my-5">resolvemos tus dudas</p>
 
     <div class="container">
 
@@ -124,124 +125,46 @@
 
   <!-------------------formulario--------------------------->
   <main id="form" class="py-md-3">
-    <h1 class="text-center text-uppercase">formulario</h1>
+    <h1 class="text-center text-uppercase">Dejamos tu comentario</h1>
+    <p class="text-center text-uppercase fw-semibold">En Azahar Coffee valoramos tu opinion,por eso te pedidmos que nos dejes tu comentario o duda acerca de nuestro servicio.</p>
     <div class="container">
       <form class="formulario">
+
         <!-- Name input -->
+        
+
         <div class="form-outline mb-2">
           <label class="form-label text-dark fw-semibold" for="form4Example1">Nombre</label>
           <input type="text" id="form4Example1" class="form-control" />
         </div>
 
-        <!-- Email input -->
+        <!-- opinion input -->
+        
         <div class="form-outline mb-2">
-          <label class="form-label text-dark fw-semibold" for="form4Example2">Email</label>
-          <input type="email" id="form4Example2" class="form-control" />
-
-        </div>
-
-        <!-- Message input -->
-        <div class="form-outline mb-2">
-          <label class="form-label text-dark fw-semibold" for="form4Example3">Mensaje</label>
+          <label class="form-label text-dark fw-semibold" for="form4Example3">Comentario</label>
           <textarea class="form-control" id="form4Example3" rows="5"></textarea>
 
         </div>
 
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-          <label class="form-check-label text-dark fw-semibold " for="form4Example4">
-            Enviar me una copia de este mensaje
-          </label>
-        </div>
-
         <!-- Submit button -->
         <div class="d-flex justify-content-center ">
-          <button type="button" onclick="mostrarComentario()"
+          <button type="button" onclick="mostrarComentario1()"
             class="btn btn-primary fw-semibold mb-2 me-2">Enviar</button>
-          <button type="reset" class="btn btn-primary fw-semibold mb-2">limpiar</button>
+          <button type="reset" class="btn btn-primary fw-semibold mb-2">Limpiar</button>
         </div>
       </form>
     </div>
   </main>
 
+  
+
   <!-- OPINIONES -->
 
-  <div class="container opiniones-container">
-    <div id="carouselExampleControls" class="carousel slide"  data-interval="2000">
-      <div class="row ">
-        <div class="col-1 d-flex justify-content-center">
-          <a href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </div>
-        <div class="col-10">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle"
-                      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3U3OXN4enU4eXhoOWM5bzRibWFwY3k1ZjBhdWxxcGtkbDIwOTJrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y805gYQbkkkMT2bFCq/giphy.gif"
-                      style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="cita">
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img class="rounded-circle" src="../img2.0/carta/c4.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9">
-                    <h3>Nombre:<span></span></h3>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-        <div class="col-1">
-          <a href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  
+    <div class="container" id="comentarioMostrado">
 
-    <!-- Controles del carrusel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
+
+    </div>
 <!--------------------------------------------------FOOOOTERRRR--------------------------------->
 <div class="container-fluid bg-dark py-4">
   <div class="container text-white">

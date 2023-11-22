@@ -31,3 +31,24 @@ a .nv-img{
     height: 36px;
 
 }
+.btn-custom {
+    background-color: burlywood;
+    /* Otros estilos si son necesarios */
+}
+
+.menu-secundario {
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+}
+.menu-secundario a{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+}
+.dropdown-menu {
+    width: max-content;
+    padding: 0.5rem;
+}
+#desplegable{
+    
+    background:#3498db ;
+    opacity: 0.9;
+}

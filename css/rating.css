@@ -1,0 +1,58 @@
+.box-estrellas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.rating{
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+} 
+
+input{
+    display: none;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    width: 5rem;
+    background-color: #ccc;
+}
+label::before{
+    content: '\f005';
+    font-family: fontAwesome;
+    display: block;
+    font-size: 2.5rem;
+    color: #101010;   
+    width: 5rem;
+}
+label::after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 2.5rem;
+    color: gold;   
+    top: 0;
+    opacity: 0;
+    width: 5rem;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+label:hover:after,
+label:hover ~ label::after,
+input:checked ~ label::after{
+    opacity: 1;
+}
+.elemento-emoji {
+    content: "\1F603";
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+.elemento-emoji::before {
+    content: "\1F603";
+    
+  }
