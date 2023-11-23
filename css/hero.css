@@ -5,7 +5,7 @@
     width: 100%; /* Ancho 100% para que se ajuste al tamaño de la pantalla */
     max-width: 1200px; /* Ancho máximo de 1200px */
     height: 600px;
-    margin: auto ; 
+    margin:auto; 
     border-radius: 50px;
     position: relative;
    
@@ -48,5 +48,8 @@
     
     
   
+
+
+
 
 
