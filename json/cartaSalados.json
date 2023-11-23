@@ -11,14 +11,14 @@
         "Nombre": "HUEVOS A LA BECHAMEL",
         "Descripción": "Huevos hervidos rellenos con bechamel casera. ¡El favorito de nuestros más pequeños!",
         "Precio": 3.20,
-        "image":"../img/v12.jpeg"
+        "image":"../img/v11.jpeg"
     },
     {
         "id": 12,
         "Nombre": "BOCATA DEL CASÓN",
         "Descripción": "Un bocata con pollo, jamón serrano, huevo frito, cebolla caramelizada, queso cheddar o queso de cabra, pimiento y tomate. El verdadero sabor del sur.",
         "Precio": 4.50,
-        "image":"../img/v11.jpeg"
+        "image":"../img/v12.jpeg"
     },
     {
         "id": 6,
